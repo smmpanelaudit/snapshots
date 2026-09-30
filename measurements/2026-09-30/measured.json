@@ -1,0 +1,2081 @@
+{
+  "date": "2026-09-30",
+  "purpose": "rehearsal",
+  "measuredAt": "2026-09-30T10:11:30Z",
+  "snapshotIndex": "snapshots/2026-09-30/index.json",
+  "panelsFile": "src/data/panels/audit-2026-10.json",
+  "criteriaFile": "src/data/criteria/audit-2026-10.json",
+  "reading": "script proposes, author confirms: nothing here is a score",
+  "panels": [
+    {
+      "panel": "Naizop",
+      "domain": "naizop.com",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "fail",
+          "reason": "21348 characters of text but only 2 rate(s) and 0 per-1000 marker(s): the rates are not on the page that was read",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/naizop.com/services.html",
+              "sha256": "7c0bc2cd359dc403bf453ee37895efd168de2da7b61d400dad776bb6e43df865",
+              "url": "https://naizop.com/instagram-growth-services",
+              "foundVia": "link on the homepage"
+            },
+            "servedTheHomepage": false,
+            "textChars": 21348,
+            "rates": 2,
+            "per1000": 0,
+            "quotes": [
+              "Instagram Growth Services From $0.01 | 100% Real & Safe Top Services Sign up Log in Home Services Reviews FAQ Blog Log in Sign Up Instagram Buy Instagr",
+              "125,840,000 Followers Delivered 250,793,000 Likes Delivered $0.0001 Starting from Price 9689 Services Trusted by 150,000+ Influencers, Agencies & Businesses All Marketing Services"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "fail",
+          "reason": "22 hit(s) on report, negative, dislike or downvote sit in what looks like a catalogue row; read each one",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/naizop.com/services.html",
+              "sha256": "7c0bc2cd359dc403bf453ee37895efd168de2da7b61d400dad776bb6e43df865",
+              "url": "https://naizop.com/instagram-growth-services",
+              "foundVia": "link on the homepage"
+            },
+            "byWord": {
+              "report": {
+                "count": 16,
+                "inServiceRows": 16,
+                "quotes": [
+                  "Buy Post Reach Followers Bot Like Bot Comment Bot View Bot Report Bot TikTok 12 Services 5.0 10,450+ Buy Followers Followers Bot Buy Likes Buy Video Views Buy Comments Buy Live Vi",
+                  "Buy Shares Buy Saves Buy Comment Replies Like Bot View Bot Report Bot YouTube 17 Services 5.0 10,450+ Buy Subscribers Buy Likes Buy Views Buy Comments Buy Shares Buy Dislikes Buy",
+                  "omment Likes Buy Favorites Subscriber Bot Like Bot View Bot Report Bot Twitter 12 Services 5.0 10,450+ Buy Followers Buy Likes Buy Views Buy Comments Buy Retweets Buy Space Listene",
+                  "arks Buy Impressions Buy Poll Votes Buy Mentions Buy Clicks Report Bot Facebook 10 Services 4.8 8,200+ Buy Followers Buy Likes Buy Comments Buy Shares Buy Reactions Buy Friends Buy",
+                  "y Friends Buy Poll Votes Buy Event Attendees Buy Watch Time Report Bot Threads 4 Services 4.7 1,100+ Buy Followers Buy Likes Buy Comments Buy Reposts Snapchat 4 Services 4.7 2,100+"
+                ]
+              },
+              "negative": {
+                "count": 2,
+                "inServiceRows": 2,
+                "quotes": [
+                  "TripAdvisor Reviews Buy Mobile App Ratings and Reviews Buy Negative Facebook Reviews SMM Panel 12 Services 4.9 9,000+ SMM Panel Twitter (X) SMM Panel YouTube SMM Panel TikTok SMM",
+                  "visor Reviews Buy Yell Reviews Buy Yellow Pages Reviews Buy Negative Facebook Reviews SMM Panels SMM Panel Telegram SMM Panel Facebook SMM Panel Instagram SMM Panel TikTok SMM Pane"
+                ]
+              },
+              "dislike": {
+                "count": 4,
+                "inServiceRows": 4,
+                "quotes": [
+                  "e Views Buy YouTube Comments Buy YouTube Shares Buy YouTube Dislikes +11 More TikTok Buy TikTok Followers TikTok Followers Bot Buy TikTok Likes Buy TikTok Video Views Buy TikTok Co",
+                  "Subscribers Buy Likes Buy Views Buy Comments Buy Shares Buy Dislikes Buy Live Views Buy Shorts Views Buy Shorts Likes Buy Watch Hours Buy Comment Replies Buy Comment Likes Buy Favo",
+                  "ments Buy YouTube Shares Buy YouTube Live Views Buy YouTube Dislikes Buy YouTube Shorts Likes Buy YouTube Shorts Views Buy YouTube Watch Hours Buy YouTube Comment Replies Buy YouTu",
+                  "mble Followers Buy Rumble Views Buy Rumble Likes Buy Rumble Dislikes Buy Rumble Comments Tumblr Buy Tumblr Followers Buy Tumblr Likes OnlyFans Buy OnlyFans Followers Buy OnlyFans L"
+                ]
+              },
+              "review": {
+                "count": 28,
+                "inServiceRows": 27,
+                "quotes": [
+                  "100% Real & Safe Top Services Sign up Log in Home Services Reviews FAQ Blog Log in Sign Up Instagram Buy Instagram Followers Buy Instagram Likes Buy Instagram Views Buy Instagram",
+                  "Buy Followers Buy Likes Buy Repins Buy Reactions Report Bot Reviews 10 Services 4.9 2,200+ Buy Facebook Reviews Buy Google Play Store Reviews Buy SiteJabber Reviews Buy HomeAdvisor",
+                  "ions Report Bot Reviews 10 Services 4.9 2,200+ Buy Facebook Reviews Buy Google Play Store Reviews Buy SiteJabber Reviews Buy HomeAdvisor Reviews Buy Review.io Reviews Buy Yell Revi",
+                  "vices 4.9 2,200+ Buy Facebook Reviews Buy Google Play Store Reviews Buy SiteJabber Reviews Buy HomeAdvisor Reviews Buy Review.io Reviews Buy Yell Reviews Buy Yellow Pages Reviews B",
+                  "cebook Reviews Buy Google Play Store Reviews Buy SiteJabber Reviews Buy HomeAdvisor Reviews Buy Review.io Reviews Buy Yell Reviews Buy Yellow Pages Reviews Buy TripAdvisor Reviews"
+                ]
+              }
+            }
+          }
+        },
+        "refill-terms": {
+          "proposed": "pass",
+          "reason": "refill appears with a window 4 time(s) and with a trigger 10 time(s); confirm both are visible before payment",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/naizop.com/services.html",
+                "sha256": "7c0bc2cd359dc403bf453ee37895efd168de2da7b61d400dad776bb6e43df865",
+                "url": "https://naizop.com/instagram-growth-services",
+                "foundVia": "link on the homepage"
+              },
+              {
+                "file": "snapshots/2026-09-30/naizop.com/terms.html",
+                "sha256": "9003b5a2d63ccb019605999e5def7944dfb3dfbd5921c0ef2d02dc1f4b75fd4e",
+                "url": "https://naizop.com/terms"
+              },
+              {
+                "file": "snapshots/2026-09-30/naizop.com/homepage.html",
+                "sha256": "8d31429173960205d3e8c76810a4d9d654e5f9a6e0a73a6b6e8857a3c79ef9a7",
+                "url": "https://naizop.com/"
+              }
+            ],
+            "refillMentions": 14,
+            "windowNear": 4,
+            "triggerNear": 10,
+            "quotes": [
+              "y remove or filter engagement at any time without notice. Drops caused by platform behavior are normal and are not refundable. Drops occurring after the stated refill period are not eligible for refill or refund. Drop Rate & Stability Engagement stability varies depending on platform conditions and service type. Any drop percentages shown on service pages are estimates only and are not guaranteed. Actual retention may be higher or lower depending on algorithm changes, platfor",
+              "y time without notice. Drops caused by platform behavior are normal and are not refundable. Drops occurring after the stated refill period are not eligible for refill or refund. Drop Rate & Stability Engagement stability varies depending on platform conditions and service type. Any drop percentages shown on service pages are estimates only and are not guaranteed. Actual retention may be higher or lower depending on algorithm changes, platform updates, detection systems, or ac",
+              "fic retention percentage. Any retention rates shown on the service page are estimates only and may vary depending on platform conditions. If a service includes refill protection, dropped engagement may be replaced within the stated refill period, provided: The content remains live The username remains unchanged The account remains public The original link has not been modified Refill requests must be submitted within the eligible timeframe shown in the service description. No",
+              "are estimates only and may vary depending on platform conditions. If a service includes refill protection, dropped engagement may be replaced within the stated refill period, provided: The content remains live The username remains unchanged The account remains public The original link has not been modified Refill requests must be submitted within the eligible timeframe shown in the service description. Non-guaranteed services do not include refill protection. Drops resulting",
+              "the stated refill period, provided: The content remains live The username remains unchanged The account remains public The original link has not been modified Refill requests must be submitted within the eligible timeframe shown in the service description. Non-guaranteed services do not include refill protection. Drops resulting from platform algorithm scans or automated detection systems are considered normal platform behavior and are not valid grounds for refunds. Service"
+            ]
+          }
+        },
+        "contact-without-account": {
+          "proposed": "pass",
+          "reason": "a channel and 2 phrase(s) that state a time; confirm the time is a response time, not opening hours",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/naizop.com/contact.html",
+                "sha256": "b200a03ce6c4499637d8c4b52a0dff4f988d9fdf7a4054722363af193963aba4",
+                "url": "https://naizop.com/contact-us"
+              },
+              {
+                "file": "snapshots/2026-09-30/naizop.com/homepage.html",
+                "sha256": "8d31429173960205d3e8c76810a4d9d654e5f9a6e0a73a6b6e8857a3c79ef9a7",
+                "url": "https://naizop.com/"
+              },
+              {
+                "file": "snapshots/2026-09-30/naizop.com/terms.html",
+                "sha256": "9003b5a2d63ccb019605999e5def7944dfb3dfbd5921c0ef2d02dc1f4b75fd4e",
+                "url": "https://naizop.com/terms"
+              }
+            ],
+            "emails": [],
+            "contactLinks": [
+              "/contact-us",
+              "https://t.me/naizopsupport_bot"
+            ],
+            "responseTime": [
+              "lse you need. Start a live chat anytime, and you'll have an answer within 24 hours. Not sure where to start? The FAQs cover the most common questions in a few seconds. Chat with us",
+              ", 365 days a year. Live chat is available at most times. We respond to all support tickets within 12 hours or less. How can I find out more about the services you offer? You can se"
+            ],
+            "alwaysOn": 6
+          }
+        },
+        "domain-age": {
+          "proposed": "pass",
+          "reason": "registered 2019-01-29, 7 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2019-01-29T10:08:55Z",
+            "source": "measurements/2026-09-30/rdap/naizop.com.json",
+            "query": "https://rdap.org/domain/naizop.com",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 6,
+          "source": {
+            "file": "snapshots/2026-09-30/naizop.com/homepage.html",
+            "sha256": "8d31429173960205d3e8c76810a4d9d654e5f9a6e0a73a6b6e8857a3c79ef9a7",
+            "url": "https://naizop.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 1,
+              "hits": [
+                "that truly benefit your accounts. If you need the  [best]  results and stay away from bots, only use our"
+              ]
+            },
+            "most trusted": {
+              "count": 3,
+              "hits": [
+                "elevated their social media growth with Naizop , the  [most trusted]  social media growth service with 3,715,623 orders until now.",
+                "Loved by users Naizop has become one of the  [most trusted]  social media growth platforms online, serving more than 300,980+",
+                "serving more than 300,980+ customers with real results. The  [most trusted]  social media growth platform with over 2,107,005 orders delivered"
+              ]
+            },
+            "guaranteed": {
+              "count": 2,
+              "hits": [
+                "Wellness 😂 Memes/humor 🚗 Cars 🎬 Movies/TV Before After  [Guaranteed]  growth or it's free! jessicaolie 2,223 Posts 1,217,828 Followers",
+                "the Service and New Order page are estimates/averages, not  [guaranteed] , and subject to change without notice. How do I"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 7
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/naizop.com/homepage.html",
+        "snapshots/2026-09-30/naizop.com/terms.html",
+        "snapshots/2026-09-30/naizop.com/services.html",
+        "snapshots/2026-09-30/naizop.com/contact.html",
+        "snapshots/2026-09-30/naizop.com/api.html"
+      ]
+    },
+    {
+      "panel": "SMMFollows",
+      "domain": "smmfollows.com",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "fail",
+          "reason": "26641 characters of text but only 1 rate(s) and 0 per-1000 marker(s): the rates are not on the page that was read (the services URL answered with the homepage again)",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/smmfollows.com/services.html",
+              "sha256": "1c1402185c93dc8ab1b9b3efc4847006ce1b0953573018d44e6b2252a13d7280",
+              "url": "https://smmfollows.com/services",
+              "foundVia": "link on the homepage"
+            },
+            "servedTheHomepage": true,
+            "textChars": 26641,
+            "rates": 1,
+            "per1000": 0,
+            "quotes": [
+              "w 0.3Sec An Order is made every 63,026,891 Orders Completed $0.001/1K Prices Starting From FAQ SmmFollows Questions and Answers Register in our Smm Panel? Most of our smm panel Use"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "pass",
+          "reason": "none of report, negative, dislike, downvote, review appears in the catalogue",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/smmfollows.com/services.html",
+              "sha256": "1c1402185c93dc8ab1b9b3efc4847006ce1b0953573018d44e6b2252a13d7280",
+              "url": "https://smmfollows.com/services",
+              "foundVia": "link on the homepage"
+            },
+            "byWord": {}
+          }
+        },
+        "refill-terms": {
+          "proposed": "fail",
+          "reason": "refill is not mentioned on the homepage, the services page or the terms",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/smmfollows.com/services.html",
+                "sha256": "1c1402185c93dc8ab1b9b3efc4847006ce1b0953573018d44e6b2252a13d7280",
+                "url": "https://smmfollows.com/services",
+                "foundVia": "link on the homepage"
+              },
+              {
+                "file": "snapshots/2026-09-30/smmfollows.com/terms.html",
+                "sha256": "a56b975925107838238ad8b7d5196b18be84619ef4666db6f8d84ba60f8117b1",
+                "url": "https://smmfollows.com/terms"
+              },
+              {
+                "file": "snapshots/2026-09-30/smmfollows.com/homepage.html",
+                "sha256": "8d4bb57c9375ab22e8ff4033d3d9ed7563fb3fe2364432254a1fb162b5a495de",
+                "url": "https://smmfollows.com/"
+              }
+            ],
+            "refillMentions": 0,
+            "windowNear": 0,
+            "triggerNear": 0,
+            "quotes": []
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "a channel is reachable in homepage.html, terms.html and 24/7 is availability, not a stated response time; nothing else states one",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/smmfollows.com/homepage.html",
+                "sha256": "8d4bb57c9375ab22e8ff4033d3d9ed7563fb3fe2364432254a1fb162b5a495de",
+                "url": "https://smmfollows.com/"
+              },
+              {
+                "file": "snapshots/2026-09-30/smmfollows.com/terms.html",
+                "sha256": "a56b975925107838238ad8b7d5196b18be84619ef4666db6f8d84ba60f8117b1",
+                "url": "https://smmfollows.com/terms"
+              }
+            ],
+            "emails": [
+              "contact@smmfollows.com"
+            ],
+            "contactLinks": [],
+            "responseTime": [],
+            "alwaysOn": 14
+          }
+        },
+        "domain-age": {
+          "proposed": "unverified",
+          "reason": "RDAP failed: fetch failed",
+          "needsReview": true
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 39,
+          "source": {
+            "file": "snapshots/2026-09-30/smmfollows.com/homepage.html",
+            "sha256": "8d4bb57c9375ab22e8ff4033d3d9ed7563fb3fe2364432254a1fb162b5a495de",
+            "url": "https://smmfollows.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 20,
+              "hits": [
+                "SMM Panel : World's  [Best]  and Cheapest SMM Provider Services Sign In Sign Up",
+                "in Sign up Terms Sign In smm panel World's  [Best]  Cheap & Easy SMM Panel Our SMM Panel lets",
+                "Services We offer several advantages that make us the  [best]  SMM panel . Our SMM services are diverse, making",
+                "is updated instantly. This means you'll always find the  [best]  deals on SmmFollows. SMM Reseller Panel We are also",
+                "Korea and all over the world. We are the  [best]  and top All-In-One Social Media Marketing tool. Our SMM",
+                "We focus on social media marketing and offer the  [best]  smm panel services worldwide. Our clients come from all",
+                "You Choose SmmFollows At SmmFollows, we aim for the  [best]  in customer service and quality. You are fully protected",
+                "for Fast Growth Trusted SMM Panel for Affordable Services  [Best]  SMM Panel for Expanding Your Audience Easy SMM Panel",
+                "we keep updating our services so you get the  [best]  value. Expanding your audience is key to growing online.",
+                "Expanding your audience is key to growing online. The  [best]  SMM panels offer effective tools that help brands reach",
+                "easier to connect and grow. Benefits of Using the  [Best]  SMM Panel Reaching a larger audience: our SMM panel",
+                "most people in a short time. Who Offers the  [Best]  SMM Service? To strengthen your presence on the web",
+                "engagement. To meet your needs you must pick the  [best]  service, so what are the criteria, and what is",
+                "so what are the criteria, and what is the  [best]  SMM service on the market? Features of the best",
+                "best SMM service on the market? Features of the  [best]  SMM panel services An SMM panel is a tool",
+                "networks and helps users reach more people fast. The  [best]  ones increase visibility and engagement through automated systems or",
+                "and reputable quickly. How to choose and use the  [best]  SMM Service? A good SMM panel should be complete,",
+                "and offer great benefits, making them some of the  [best]  SMM panels available. We serve agencies and freelancers worldwide,",
+                "stand out. Offer adapted to the company's budget The  [best]  SMM panel for you depends on your needs and",
+                "already underway. We take every step to bring the  [best]  SMM services to our customers, so SmmFollows is well"
+              ]
+            },
+            "cheapest": {
+              "count": 12,
+              "hits": [
+                "SMM Panel : World's Best and  [Cheapest]  SMM Provider Services Sign In Sign Up Terms Sign",
+                "high quality and affordable. SmmFollows is the fastest and  [cheapest]  SMM Panel . Join SMMFollows , which is your",
+                ". Our SMM services are diverse, making us the  [cheapest]  around. Many agencies and freelancers worldwide rely on us.",
+                "us. We're here to answer all your questions 24/7.  [Cheapest]  Smm Panel Our prices are the cheapest in the",
+                "questions 24/7. Cheapest Smm Panel Our prices are the  [cheapest]  in the market, starting at 0.01$. Fastest Smm Panel",
+                "and quality. You are fully protected when using our  [cheapest]  and fastest SMM panel online . Sign Up Now",
+                "panel online . Sign Up Now SMM Reseller Panel  [Cheapest]  SMM Reseller Panel Do you want to start your",
+                "This lets users grow their accounts easily. Use the  [cheapest]  SMM panel for all your social media needs. Cheapest",
+                "cheapest SMM panel for all your social media needs.  [Cheapest]  SMM Panel for Fast Growth Trusted SMM Panel for",
+                "Customized Growth Reliable SMM Panel for Effective Results The  [cheapest]  SMM panel lets you grow fast without spending a",
+                "/ USDC CoinPayments, Coinbase and Payeer. Which is the  [Cheapest]  SMM Panel? Running a good digital marketing campaign means",
+                "with the smmfollows.com platform, known as one of the  [cheapest]  SMM Panel on the market. Here's what makes it"
+              ]
+            },
+            "fastest": {
+              "count": 7,
+              "hits": [
+                "networks. It's high quality and affordable. SmmFollows is the  [fastest]  and cheapest SMM Panel . Join SMMFollows , which",
+                "are the cheapest in the market, starting at 0.01$.  [Fastest]  Smm Panel We promise to deliver your order quickly,",
+                "panel services are ready for you. We are the  [Fastest]  SMM Reseller Panel, so your order starts quickly, in",
+                "You are fully protected when using our cheapest and  [fastest]  SMM panel online . Sign Up Now SMM Reseller",
+                "Expanding Your Audience Easy SMM Panel for Maximum Engagement  [Fastest]  SMM Panel for Customized Growth Reliable SMM Panel for",
+                "grow fast online, the right tools are key. Our  [fastest]  SMM panel offers tailored solutions that help you reach",
+                "losing quality. Why Choose Our Fast Growth Solutions? Our  [fastest]  SMM panel offers tailored solutions for quick growth, with"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": null
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/smmfollows.com/homepage.html",
+        "snapshots/2026-09-30/smmfollows.com/terms.html",
+        "snapshots/2026-09-30/smmfollows.com/services.html",
+        "snapshots/2026-09-30/smmfollows.com/api.html"
+      ]
+    },
+    {
+      "panel": "Just Another Panel",
+      "domain": "justanotherpanel.com",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "fail",
+          "reason": "19180 characters of text but only 1 rate(s) and 0 per-1000 marker(s): the rates are not on the page that was read (the services URL answered with the homepage again)",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/justanotherpanel.com/services.html",
+              "sha256": "a6071473a037ef293a20b56cb114e0052bea34151f174afb532ea74a9cb058d2",
+              "url": "https://justanotherpanel.com/services",
+              "foundVia": "/services"
+            },
+            "servedTheHomepage": true,
+            "textChars": 19180,
+            "rates": 1,
+            "per1000": 0,
+            "quotes": [
+              "Sign up Every 0.14 SEC An order 1018939304 Orders Completed $0.01/1K Prices starting from How Does JustAnotherPanel - SMM Panel Works? 1 You need to sign up for the Social Media pa"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "pass",
+          "reason": "8 hit(s), none of them in a catalogue row, so no row names such a service; read the quotes and overturn this if one does",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/justanotherpanel.com/services.html",
+              "sha256": "a6071473a037ef293a20b56cb114e0052bea34151f174afb532ea74a9cb058d2",
+              "url": "https://justanotherpanel.com/services",
+              "foundVia": "/services"
+            },
+            "byWord": {
+              "review": {
+                "count": 8,
+                "inServiceRows": 0,
+                "quotes": [
+                  ", we've introduced a dedicated section where you can easily review your past orders and favorites. This feature allows you to quickly locate and reorder the services you love, with",
+                  "oub, Dailymotion, Datpiff, Deezer, Discord, Dribble, Google Reviews, Google Maps citations, Google real visitors, Trovo, Kwai, Likee, line, Mixcloud, Mentimeter, mobile app install",
+                  "nstalls, Napster, ok.ru, Pinterest, podcast iTunes, podcast reviews iTunes, Quora, Reddit, Reverberation, rutube.ru, Trustpilot reviews, other reviews, Shazam, Shopee, SoundCloud,",
+                  "iTunes, Quora, Reddit, Reverberation, rutube.ru, Trustpilot reviews, other reviews, Shazam, Shopee, SoundCloud, Tidal, TripAdvisor custom reviews, Tumblr, vk.com, Vimeo, rumble.com",
+                  "Reddit, Reverberation, rutube.ru, Trustpilot reviews, other reviews, Shazam, Shopee, SoundCloud, Tidal, TripAdvisor custom reviews, Tumblr, vk.com, Vimeo, rumble.com, Yandex, Linke"
+                ]
+              }
+            }
+          }
+        },
+        "refill-terms": {
+          "proposed": "fail",
+          "reason": "refill appears 2 time(s) but a window is near it 0 time(s) and a trigger 2 time(s): the pages read do not state both",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/justanotherpanel.com/services.html",
+                "sha256": "a6071473a037ef293a20b56cb114e0052bea34151f174afb532ea74a9cb058d2",
+                "url": "https://justanotherpanel.com/services",
+                "foundVia": "/services"
+              },
+              {
+                "file": "snapshots/2026-09-30/justanotherpanel.com/terms.html",
+                "sha256": "d7bae7b98ecac3101e36762e1d5ed9e36807cc65d665d2303925cff37bfe91ea",
+                "url": "https://justanotherpanel.com/terms"
+              },
+              {
+                "file": "snapshots/2026-09-30/justanotherpanel.com/homepage.html",
+                "sha256": "e3eef1b1c84793036d1055359e362f18e7a0628240c0b0428a37a28905a557de",
+                "url": "https://justanotherpanel.com/"
+              }
+            ],
+            "refillMentions": 2,
+            "windowNear": 0,
+            "triggerNear": 2,
+            "quotes": [
+              "vered. This is only an estimation, and Just Another Panel will not refund orders that are processing if you feel they are taking too long. All orders without a refill period are not refillable even if they face a 100% drop, please order services with refill. Just Another Panel tries hard to deliver exactly what is expected from us by our re-sellers. In this case, we reserve the right to change a service type if we deem it necessary to complete an order. Any malicious/abusive",
+              "rocessing if you feel they are taking too long. All orders without a refill period are not refillable even if they face a 100% drop, please order services with refill. Just Another Panel tries hard to deliver exactly what is expected from us by our re-sellers. In this case, we reserve the right to change a service type if we deem it necessary to complete an order. Any malicious/abusive actions can cause your account with us to be suspended. Before suspension, users will get t"
+            ]
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "no email address and no contact, support or ticket link in homepage.html, terms.html",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/justanotherpanel.com/homepage.html",
+                "sha256": "e3eef1b1c84793036d1055359e362f18e7a0628240c0b0428a37a28905a557de",
+                "url": "https://justanotherpanel.com/"
+              },
+              {
+                "file": "snapshots/2026-09-30/justanotherpanel.com/terms.html",
+                "sha256": "d7bae7b98ecac3101e36762e1d5ed9e36807cc65d665d2303925cff37bfe91ea",
+                "url": "https://justanotherpanel.com/terms"
+              }
+            ],
+            "emails": [],
+            "contactLinks": [],
+            "responseTime": [],
+            "alwaysOn": 2
+          }
+        },
+        "domain-age": {
+          "proposed": "pass",
+          "reason": "registered 2016-09-19, 10 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2016-09-19T12:32:57Z",
+            "source": "measurements/2026-09-30/rdap/justanotherpanel.com.json",
+            "query": "https://rdap.org/domain/justanotherpanel.com",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 25,
+          "source": {
+            "file": "snapshots/2026-09-30/justanotherpanel.com/homepage.html",
+            "sha256": "e3eef1b1c84793036d1055359e362f18e7a0628240c0b0428a37a28905a557de",
+            "url": "https://justanotherpanel.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 14,
+              "hits": [
+                "SMM Panel :  [Best]  and Cheapest Smm Services in The World! Sign In",
+                "to offer them in return. Here, we provide the  [best]  and most affordable SMM panel services to those leaders",
+                "or your social media accounts after you use the  [best]  SMM panel. SIGN UP NOW Sign In Remember me",
+                "up! With JustAnotherPanel SMM panel services, you get the  [best]  of both worlds. Not only do we provide you",
+                "what budget you have, we can give you the  [best]  possible results at a fraction of the cost. Secure",
+                "our team is here to provide you with the  [best]  advice and support. From setting up services to your",
+                "our team is here to provide you with the  [best]  advice and support. We understand that managing social media",
+                "or helping you decide on which strategy will work  [best]  for your business, we’ll be there to provide guidance",
+                "to accommodate fast and simple use of the panel,  [best]  in the market. Delivered in minutes Super fast delivery,",
+                "different SMM panels, but JAP is by far the  [best]  one I've ever used. The customer service team was",
+                "JAP services, I must say that they are the  [best]  in terms of quality and cost. The company I",
+                "competition run over LinkedIn, I think it would be  [best]  to get some healthy trick that hurts no one.",
+                "wrong occurs they always compensate and more! Simply the  [best] !\" Matt - BODY BUILDER \"This service is the best",
+                "best!\" Matt - BODY BUILDER \"This service is the  [best]  when you want to make your Instagram account more"
+              ]
+            },
+            "cheapest": {
+              "count": 8,
+              "hits": [
+                "SMM Panel : Best and  [Cheapest]  Smm Services in The World! Sign In Sign Up",
+                "you could ever imagine for Instagram. JustAnotherPanel is the  [cheapest]  Instagram panel, and has multiple services for Instagram, including,",
+                "We cover and restock all for you with the  [cheapest]  social media panel. Show More TikTok SMM Panel Services:",
+                "audience, receive maximum engagement and visibility, and drive conversions.  [Cheapest]  Reseller Panel JustAnotherPanel is the cheapest SMM reseller panel,",
+                "and drive conversions. Cheapest Reseller Panel JustAnotherPanel is the  [cheapest]  SMM reseller panel, providing you with unbeatable prices for",
+                "we’ll make you sure that you are using the  [cheapest]  SMM panel ever. Our packages are tailored to fit",
+                "(SMM) Panel Services provided by us are of the  [cheapest]  and beyond quality standards. We take pride in our",
+                "They are really doing it, and it is the  [cheapest]  SMM panel of all time.\" Mashum - BACKLINK SEO"
+              ]
+            },
+            "#1": {
+              "count": 1,
+              "hits": [
+                "Up API Blog Sign In Sign Up API Blog  [#1]  SMM PANEL IN THE WORLD! With JustAnotherPanel, you'll revolutionize"
+              ]
+            },
+            "fastest": {
+              "count": 1,
+              "hits": [
+                "in the market. Delivered in minutes Super fast delivery,  [fastest]  in the market. Support 24/7 Support available around the"
+              ]
+            },
+            "guaranteed": {
+              "count": 1,
+              "hits": [
+                "satisfaction, and it partially comes from our services being  [guaranteed] , targeted, and cheap SMM all the time. So, go"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 10
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/justanotherpanel.com/homepage.html",
+        "snapshots/2026-09-30/justanotherpanel.com/terms.html",
+        "snapshots/2026-09-30/justanotherpanel.com/services.html",
+        "snapshots/2026-09-30/justanotherpanel.com/api.html"
+      ]
+    },
+    {
+      "panel": "MoreThanPanel",
+      "domain": "morethanpanel.com",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "pass",
+          "reason": "4142 rates and 381 per-1000 markers are in the page as served",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/morethanpanel.com/services.html.gz",
+              "sha256": "97afd38360cf671d13af0d2b1818f542e22c4ce377a83c8ec00e6525438865d0",
+              "url": "https://morethanpanel.com/pricing",
+              "foundVia": "link on the homepage"
+            },
+            "servedTheHomepage": false,
+            "textChars": 563219,
+            "rates": 4142,
+            "per1000": 381,
+            "quotes": [
+              "lly Operating Accounts [Exclusive to MTP] | NEW! ID Service Rate per 1000 Min order - Max order Details 10237 🔵 Instagram Comment Likes | Speed: 500-2K | Max 2K | NEW! $1.49 10 -",
+              "ons | Super Cheap Services Starting from $0.00 | ID Service Rate per 1000 Min order - Max order Details 9858 🟡 X/Twitter Tweet Views | Speed 100-500K/Day | Max 100M | NEW! $0.002",
+              "Always Stable & Example Data is Also Available | ID Service Rate per 1000 Min order - Max order Details 7343 🦆 What's This Category? [Read Description Before Order] $9999999.00 2",
+              "| NEW! MTP Promotions | Super Cheap Services Starting from $0.00 | 🦆 Provided By MTP | Cheapest in the Market & Always Stable & Example Data is Also Available | Cheapest Of All T"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "fail",
+          "reason": "23 hit(s) on report, negative, dislike or downvote sit in what looks like a catalogue row; read each one",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/morethanpanel.com/services.html.gz",
+              "sha256": "97afd38360cf671d13af0d2b1818f542e22c4ce377a83c8ec00e6525438865d0",
+              "url": "https://morethanpanel.com/pricing",
+              "foundVia": "link on the homepage"
+            },
+            "byWord": {
+              "report": {
+                "count": 15,
+                "inServiceRows": 10,
+                "quotes": [
+                  "$1.35 100 - 1 500 000 Live Data View 9776 🔵 Facebook Post Report | Speed 500-1K/Day | Max 1M | $4.05 1 000 - 1 000 000 Live Data View 9793 🔵 Facebook Real Friends Request | Spee",
+                  "$1.35 100 - 1 500 000 Live Data View 9777 🔵 Facebook Page Report | Speed 500-1K/Day | Max 1M | $4.05 1 000 - 1 000 000 Live Data View 5799 🔵 Facebook Group Members | 30 Day Refi",
+                  "25.90 1 000 - 1 000 Live Data View 9778 🔵 Facebook Account Report | Speed 500-1K/Day | Max 1M | $4.05 1 000 - 1 000 000 Live Data View 9781 🔵 Facebook Ad Accounts | 2-Year BM | 2",
+                  "Max 1.5M ⌉ $1.35 100 - 1 500 000 Live Data View 🔵 Facebook Report | MTP Exclusive | ID Service Rate per 1000 Min order - Max order Details 7134 🔵 Facebook Post Report | Speed 500",
+                  "er 1000 Min order - Max order Details 7134 🔵 Facebook Post Report | Speed 500-1K/Day | Max 1M | $4.05 1 000 - 1 000 000 Live Data View 7135 🔵 Facebook Page Report | Speed 500-1K/"
+                ]
+              },
+              "negative": {
+                "count": 6,
+                "inServiceRows": 6,
+                "quotes": [
+                  "View 2738 🔵Telegram | Post Reactions + Views | Low Drop | Negative |👎 😱 💩 😢 🤮| Max1K | $0.08 10 - 1 000 000 Live Data View 7678 🔵 Telegram Post Reactions + View | Like (👍)",
+                  "$990.00 1 - 100 Live Data View 10058 🔵 🇹🇷 Google 1 Star Negative | Max 1K | UHQ | Provided by US Profiles | $990.00 1 - 1 000 Live Data View 10059 🔵 🇹🇷 Google 5 Star Ratings",
+                  "990.00 1 - 1 000 Live Data View 10068 🔵 🇩🇪 Google 1 Star Negative | Germany | Max 1K | UHQ | Provided by US Profiles | $990.00 1 - 1 000 Live Data View 10063 🔵 🇩🇪 Google Cust",
+                  "W! $31.18 10 - 500 Live Data View 7944 🔵 VK Organic Random Negative Comment | Speed 100-1K/Days | Max 10K | NEW! $31.18 10 - 500 Live Data View Rutube Subscribers | Likes | Push t",
+                  "00 Min order - Max order Details 7258 🔵 🇹🇷 Google 1 Star Negative | Turkey | Max 1K | UHQ | Provided by US Profiles | $990.00 1 - 1 000 Live Data View 8654 🔵 🌎 Google 1-5 Star"
+                ]
+              },
+              "dislike": {
+                "count": 3,
+                "inServiceRows": 2,
+                "quotes": [
+                  "w Drop | $70.00 20 - 100 000 Live Data View YouTube Likes | Dislikes | ID Service Rate per 1000 Min order - Max order Details 935 🟡 Youtube Likes | No Refill | Speed 500-1K/Day |",
+                  "000 Live Data View 7679 🔵 Telegram Post Reactions + View | Dislike (👎) | Max 1M | $0.03 10 - 500 000 Live Data View 7680 🔵 Telegram Post Reactions + View | Heart (❤️) | Max 1M |"
+                ]
+              },
+              "downvote": {
+                "count": 7,
+                "inServiceRows": 5,
+                "quotes": [
+                  "100K | NEW! $1.75 20 - 100 000 Live Data View 5783 🟢 Quora Downvote | Refill 30 Day | Max 10K $1.75 20 - 100 000 Live Data View 3598 🟢 Quora Upvotes | 30 Days Refill | Speed 10K/",
+                  "| NEW! | $29.00 50 - 10 000 Live Data View Quora Upvotes | DownVotes | ID Service Rate per 1000 Min order - Max order Details 3606 🟢 Quora DownVotes | 30 Days Refill | Speed 20K/",
+                  "e Rate per 1000 Min order - Max order Details 3606 🟢 Quora DownVotes | 30 Days Refill | Speed 20K/Day | Max 100K | $1.75 20 - 100 000 Live Data View 957 🟢 Quora Upvotes | 30 Days",
+                  "HQ | NEW! $106.36 5 - 1 000 Live Data View Reddit Upvotes | Downvotes | ID Service Rate per 1000 Min order - Max order Details 7339 🔵 Reddit Upvotes | 100-500/Day | Max 15K | UHQ",
+                  "NEW! $14.50 100 - 15 000 Live Data View 7342 🔵 Reddit Post Downvotes | 100-500/Day | Max 1K | NEW! $30.39 5 - 1 000 Live Data View 2874 🔵 Reddit Comment Upvotes | Old Accounts Up"
+                ]
+              },
+              "review": {
+                "count": 232,
+                "inServiceRows": 221,
+                "quotes": [
+                  "x 10K | $6.69 500 - 15 000 Live Data View 9235 🔵 🌎 Google Review Likes | No Refill | Max 100 | Read Description! | NEW! | $890.00 1 - 100 Live Data View 9236 🔵 🌎 Google Review",
+                  "! | NEW! | $890.00 1 - 100 Live Data View 9236 🔵 🌎 Google Review Likes | 7 Day Refill | Max 100 | Read Description! | NEW! | $990.00 1 - 100 Live Data View 9238 🔵 🌎 Google 1-5",
+                  "| $1490.00 1 - 100 Live Data View 9116 🔵 🌎 Google Custom Reviews | No Refill | Max 100 | Read Description! | NEW! | $2990.00 1 - 100 Live Data View 9233 🔵 🌎 Google Custom Revi",
+                  "| $2990.00 1 - 100 Live Data View 9233 🔵 🌎 Google Custom Reviews | 7 Day Refill | Max 100 | Read Description! | NEW! | $3990.00 1 - 100 Live Data View 7253 🔵 🌎 Google Custom R",
+                  "| $3990.00 1 - 100 Live Data View 7253 🔵 🌎 Google Custom Reviews | 30 Day Refill | Max 100 | Read Description! | $4990.00 1 - 1 000 Live Data View 7255 🔵 🇺🇸 Google Custom Rev"
+                ]
+              }
+            }
+          }
+        },
+        "refill-terms": {
+          "proposed": "pass",
+          "reason": "refill appears with a window 1115 time(s) and with a trigger 160 time(s); confirm both are visible before payment",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/morethanpanel.com/services.html.gz",
+                "sha256": "97afd38360cf671d13af0d2b1818f542e22c4ce377a83c8ec00e6525438865d0",
+                "url": "https://morethanpanel.com/pricing",
+                "foundVia": "link on the homepage"
+              },
+              {
+                "file": "snapshots/2026-09-30/morethanpanel.com/terms.html",
+                "sha256": "0af91bb218f3fab812218856b03ea65c6fd14501df3f8077981d37930d8df809",
+                "url": "https://morethanpanel.com/terms"
+              },
+              {
+                "file": "snapshots/2026-09-30/morethanpanel.com/homepage.html",
+                "sha256": "4bd133f9d105c3e890d2cc88a352c17bf10dcfba884f4539b7b7205562f744c9",
+                "url": "https://morethanpanel.com/"
+              }
+            ],
+            "refillMentions": 1203,
+            "windowNear": 1115,
+            "triggerNear": 160,
+            "quotes": [
+              "3 10 - 50 000 Live Data View 8509 🟡 Telegram Post Share | Speed 5-10K/Day | Max 20K | NEW! | $0.009 10 - 20 000 Live Data View 9856 🟡 TikTok Video Views | No Refill | Speed: 50-500K/Day | Max 500M | $0.009 100 - 500 000 000 Live Data View 9862 🟢 TikTok Live Stream Likes | Speed: 10-100K/Day | Max 100M | $0.02 100 - 100 000 000 Live Data View 8166 🟢 X/Twitter Tweet Views | 30 Day Refill | Speed 500-1M/Day | Max 100M | NEW! $0.003 100 - 100 000 000 Live Data View 9860 🟢 X/",
+              "Live Data View 9862 🟢 TikTok Live Stream Likes | Speed: 10-100K/Day | Max 100M | $0.02 100 - 100 000 000 Live Data View 8166 🟢 X/Twitter Tweet Views | 30 Day Refill | Speed 500-1M/Day | Max 100M | NEW! $0.003 100 - 100 000 000 Live Data View 9860 🟢 X/Twitter Tweet + Video Impressions | Lifetime Guaranteed | Speed 500-1M/Day | Max 100M | NEW! $0.003 100 - 100 000 000 Live Data View 9861 🟢 X/Twitter Tweet + Video Engagements | Lifetime Guaranteed | Speed 500-1M/Day | Max 10",
+              "y | Max 100M | NEW! $0.003 100 - 100 000 000 Live Data View 8869 🟢 X/Twitter Tweet/Video Views + Impressions + Engagements + Details + Profile Visits | 30 Day Refill | Speed 10-100K/Day | Max 100M | $0.009 100 - 100 000 000 Live Data View 7402 🟢 Instagram Video Views | 30 Day Refill | 100-500K/Day | Max 100M | $0.009 100 - 100 000 000 Live Data View 7403 🟢 Instagram Video Views | Lifetime Guaranteed | 400-800K/Day | Max 100M | $0.009 100 - 100 000 000 Live Data View 9859 \ud83d",
+              "ents + Details + Profile Visits | 30 Day Refill | Speed 10-100K/Day | Max 100M | $0.009 100 - 100 000 000 Live Data View 7402 🟢 Instagram Video Views | 30 Day Refill | 100-500K/Day | Max 100M | $0.009 100 - 100 000 000 Live Data View 7403 🟢 Instagram Video Views | Lifetime Guaranteed | 400-800K/Day | Max 100M | $0.009 100 - 100 000 000 Live Data View 9859 🟢 TikTok Video Views | Lifetime Guaranteed | 10-100K/Day | Max 100M | $0.03 100 - 100 000 000 Live Data View 9857 🟢 Ti",
+              "ata View 9859 🟢 TikTok Video Views | Lifetime Guaranteed | 10-100K/Day | Max 100M | $0.03 100 - 100 000 000 Live Data View 9857 🟢 TikTok Video Views | 30 Day Refill | Speed: 10-100K/Day | Max 100M | $0.02 100 - 100 000 000 Live Data View 🦆 Provided By MTP | Cheapest in the Market & Always Stable & Example Data is Also Available | ID Service Rate per 1000 Min order - Max order Details 7343 🦆 What's This Category? [Read Description Before Order] $9999999.00 2 147 483 647 -"
+            ]
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "a channel is reachable in contact.html, homepage.html, terms.html and 24/7 is availability, not a stated response time; nothing else states one",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/morethanpanel.com/contact.html",
+                "sha256": "25dcc3d0932367b32dfd4de94d5ab4df027f7d35e90aa2288c9e152162a849f3",
+                "url": "https://morethanpanel.com/contact"
+              },
+              {
+                "file": "snapshots/2026-09-30/morethanpanel.com/homepage.html",
+                "sha256": "4bd133f9d105c3e890d2cc88a352c17bf10dcfba884f4539b7b7205562f744c9",
+                "url": "https://morethanpanel.com/"
+              },
+              {
+                "file": "snapshots/2026-09-30/morethanpanel.com/terms.html",
+                "sha256": "0af91bb218f3fab812218856b03ea65c6fd14501df3f8077981d37930d8df809",
+                "url": "https://morethanpanel.com/terms"
+              }
+            ],
+            "emails": [
+              "hello@morethanpanel.com",
+              "invoice@morethanpanel.com",
+              "legal@morethanpanel.com",
+              "enterprise@morethanpanel.com"
+            ],
+            "contactLinks": [
+              "/contact?snapshot=1790763037185",
+              "/tr/contact?snapshot=1790763037185",
+              "/contact"
+            ],
+            "responseTime": [],
+            "alwaysOn": 13
+          }
+        },
+        "domain-age": {
+          "proposed": "fail",
+          "reason": "registered 2023-01-18, 3 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2023-01-18T19:30:46Z",
+            "source": "measurements/2026-09-30/rdap/morethanpanel.com.json",
+            "query": "https://rdap.org/domain/morethanpanel.com",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 49,
+          "source": {
+            "file": "snapshots/2026-09-30/morethanpanel.com/homepage.html",
+            "sha256": "4bd133f9d105c3e890d2cc88a352c17bf10dcfba884f4539b7b7205562f744c9",
+            "url": "https://morethanpanel.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 36,
+              "hits": [
+                "[Best]  SMM Panel - Cheapest and Easiest Social Media Panel",
+                "in Register English Turkish Excellent 4.8 out of 5  [Best]  SMM Panel: Cheapest and Easiest Social Media Panel The",
+                "SMM Panel: Cheapest and Easiest Social Media Panel The  [best]  SMM panel serves as an automated marketplace that offers",
+                "users on a budget. Resellers and freelancers utilize the  [best]  SMM panel to offer social media services to their",
+                "prices with the market so you always get the  [best]  value. See price comparison Best and Cheapest SMM Services",
+                "you always get the best value. See price comparison  [Best]  and Cheapest SMM Services Best and cheapest platforms (Instagram,",
+                "value. See price comparison Best and Cheapest SMM Services  [Best]  and cheapest platforms (Instagram, TikTok, YouTube, and Facebook), providing",
+                "Total delivered 10,000 followers 48H · CONTROLLED DELIVERY PATTERN  [Best]  SMM and Instagram Panel Reviews MoreThanPanel is renowned for",
+                "using their SMM panel. James Musician 4.9 13 October  [Best]  SMM Experience 💯 The bulk order option with MorethanPanel",
+                "29/10/2025 Faster than what it would take me The  [best]  decision ever, I receive likes faster than what it",
+                "flexibility and scalability. Users choose the platforms that align  [best]  with their goals. Instagram for visual storytelling, Twitter for",
+                "top SMM panels to ensure you always get the  [best]  value. Daily price checks 100% transparent Best value guaranteed",
+                "get the best value. Daily price checks 100% transparent  [Best]  value guaranteed Popular Services MoreThanPanel OUR PRICE Market Average",
+                "Saving 24% Cheaper You save $0.93 per 1,000 ✓  [Best]  Value TikTok Real Followers Quality: Elite • Speed: 10-20k/day",
+                "Saving 37% Cheaper You save $1.73 per 1,000 ✓  [Best]  Value Youtube Mixed Social Views Quality: Elite • Speed:",
+                "Saving 43% Cheaper You save $2.21 per 1,000 ✓  [Best]  Value X/Twitter Tweet + Video Impressions Quality: Medium •",
+                "Saving %66 Cheaper You save $0.002 per 1,000 ✓  [Best]  Value Prices updated daily to stay ahead of the",
+                "Built for brands & agencies Our Elite tier represents  [best] -in-class social media services built using organic-grade delivery methods. Engineered",
+                "non-drop retention and lifetime refill protection. View Elite Services  [Best]  Instagram Panel Services The best Instagram panel services by",
+                "protection. View Elite Services Best Instagram Panel Services The  [best]  Instagram panel services by MoreThanPanel offer a range of",
+                "Instagram. MoreThanPanel allows users to choose from packages that  [best]  suit their needs, ensuring quality growth with a safe,",
+                "cheap Instagram visibility affordably and efficiently. MoreThanPanel offers the  [best]  and cheapest SMM services for Instagram, helping users quickly",
+                "to meet different needs, ensuring that users get the  [best]  deal without compromising quality. MoreThanPanel offers a range of",
+                "active users to ensure a content gets genuine attention.  [Best]  TikTok Panel Services The best TikTok panel services by",
+                "content gets genuine attention. Best TikTok Panel Services The  [best]  TikTok panel services by MoreThanPanel offer a comprehensive range",
+                "social proof for a content creator, influencer, or business.  [Best]  YouTube Social Media Services Panel The best YouTube panel",
+                "or business. Best YouTube Social Media Services Panel The  [best]  YouTube panel services by MoreThanPanel provide a wide range",
+                "and organic growth for content creators, influencers, and businesses.  [Best]  Facebook Social Media Services Panel The best Facebook panel",
+                "and businesses. Best Facebook Social Media Services Panel The  [best]  Facebook panel services by MoreThanPanel offer a comprehensive suite",
+                "investment, which affects cost calculations for brands or agencies.  [Best]  Social Media Services and Panel Specialists Get to know",
+                "records, business registrations, and dispute-resolution policies. Buyers seeking the  [best]  SMM panel India has evaluate whether the provider maintains",
+                "MoreThanPanel around the careful version. How to Choose the  [Best]  SMM Panel? To choose the best SMM panel, follow",
+                "to Choose the Best SMM Panel? To choose the  [best]  SMM panel, follow the six steps below. Evaluate service",
+                "identified by a social media department searching for the  [best]  SMM panel. Identify red flags (hidden ownership details, missing",
+                "unstable metrics) that signal unreliable services. What are the  [Best]  Features of SMM Panels? The best features of SMM",
+                "What are the Best Features of SMM Panels? The  [best]  features of SMM panels are listed below. Retention: A"
+              ]
+            },
+            "cheapest": {
+              "count": 9,
+              "hits": [
+                "Best SMM Panel -  [Cheapest]  and Easiest Social Media Panel Language English English Turkish",
+                "Turkish Excellent 4.8 out of 5 Best SMM Panel:  [Cheapest]  and Easiest Social Media Panel The best SMM panel",
+                "Balance for Reseller 100% Password-Free 24/7 Live Customer Support  [Cheapest]  Reseller Price Guarantee 256-Bit SSL Encrypted Natural Drip-Feed Trusted",
+                "get the best value. See price comparison Best and  [Cheapest]  SMM Services Best and cheapest platforms (Instagram, TikTok, YouTube,",
+                "price comparison Best and Cheapest SMM Services Best and  [cheapest]  platforms (Instagram, TikTok, YouTube, and Facebook), providing a range",
+                "solutions make it easy for businesses and influencers to  [cheapest]  SMM services are available through SMM panels, offering an",
+                "presence quickly and affordably. MoreThanPanel provides some of the  [cheapest]  Instagram follower services available. The platform offers fast delivery",
+                "visibility affordably and efficiently. MoreThanPanel offers the best and  [cheapest]  SMM services for Instagram, helping users quickly increase their",
+                "artificial engagement use Evaluate budget options and consider the  [cheapest]  SMM reseller panel cautiously, confirming the quality of service"
+              ]
+            },
+            "fastest": {
+              "count": 2,
+              "hits": [
+                "Million Completed Order 5545+ Total Services NO DOUBT! World's  [Fastest]  Growing Smm Panel 229.000+ Registered User Transparent SMM Pricing",
+                "YouTube Subscribers Buying YouTube subscribers from MoreThanPanel is the  [fastest]  way to boost social proof and unlock new opportunities"
+              ]
+            },
+            "guaranteed": {
+              "count": 2,
+              "hits": [
+                "businesses looking to elevate their social media presence, offering  [guaranteed]  growth, secure transactions, and flexible packages. The platform's reliability,",
+                "best value. Daily price checks 100% transparent Best value  [guaranteed]  Popular Services MoreThanPanel OUR PRICE Market Average You Save"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 3
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/morethanpanel.com/homepage.html",
+        "snapshots/2026-09-30/morethanpanel.com/terms.html",
+        "snapshots/2026-09-30/morethanpanel.com/services.html.gz",
+        "snapshots/2026-09-30/morethanpanel.com/contact.html",
+        "snapshots/2026-09-30/morethanpanel.com/api.html"
+      ]
+    },
+    {
+      "panel": "Boostero",
+      "domain": "boostero.com",
+      "ours": true,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "pass",
+          "reason": "1599 rates and 1 per-1000 markers are in the page as served",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/boostero.com/services.html.gz",
+              "sha256": "de147783bc796a98d78ea98d8925378990eb23e5aa2cf59fb9a2f9eb13d46b2f",
+              "url": "https://boostero.com/best-smm-services",
+              "foundVia": "link on the homepage"
+            },
+            "servedTheHomepage": false,
+            "textChars": 799057,
+            "rates": 1599,
+            "per1000": 1,
+            "quotes": [
+              "N ₦ PHP ₱ PKR Rs RUB ₽ SAR ر.س THB ฿ TRY ₺ VND ₫ ID Service Rate per 1000 Min order Max order Details Order YouTube - Monthly Growth Packages 4249 ♻️YouTube Monthly Growth ➡️ [ STA",
+              "Packages 4249 ♻️YouTube Monthly Growth ➡️ [ STARTER PLAN ] $40.00 1 1 Details ▾ Order ‼️ How Monthly Growth Plans Work: Our system monitors your YouTube channel and instantly dete",
+              "♻️ 4250 ♻️ YouTube Monthly Growth ➡️ [ PROFESSIONAL PLAN ] $80.00 1 1 Details ▾ Order ‼️ How Monthly Growth Plans Work: Our system monitors your YouTube channel and instantly dete",
+              "rop! ♻️ 4253 ♻️ YouTube Monthly Growth ➡️ [ BUSINESS PLAN ] $120.00 1 1 Details ▾ Order ‼️ How Monthly Growth Plans Work: Our system monitors your YouTube channel and instantly det"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "fail",
+          "reason": "8 hit(s) on report, negative, dislike or downvote sit in what looks like a catalogue row; read each one",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/boostero.com/services.html.gz",
+              "sha256": "de147783bc796a98d78ea98d8925378990eb23e5aa2cf59fb9a2f9eb13d46b2f",
+              "url": "https://boostero.com/best-smm-services",
+              "foundVia": "link on the homepage"
+            },
+            "byWord": {
+              "report": {
+                "count": 31,
+                "inServiceRows": 2,
+                "quotes": [
+                  "directly linked to the article itself. SEO Services - Audit Report 4516 🔎 SEO Audit Report & Strategy ➡️ [ Manual Website Review ] $249.97 1 1 Details ▾ Order Are you looking to b",
+                  "ticle itself. SEO Services - Audit Report 4516 🔎 SEO Audit Report & Strategy ➡️ [ Manual Website Review ] $249.97 1 1 Details ▾ Order Are you looking to boost your website's onlin"
+                ]
+              },
+              "negative": {
+                "count": 1,
+                "inServiceRows": 1,
+                "quotes": [
+                  "t accept any kind of complaints. ❌ 3557 👎😁😢💩🤮 Telegram Negative Mix Reactions ➡️ [ High Quality | 5K/Day | No Refill ] $0.225 50 1 000 000 Details ▾ Order ⬇️ Specifications: \ud83d"
+                ]
+              },
+              "dislike": {
+                "count": 4,
+                "inServiceRows": 2,
+                "quotes": [
+                  "We will not accept any kind of complaints. ❌ 316 👎 YouTube Dislikes ➡️ [ High Quality | 10K/Day | No Refill ] $4.41 50 15 000 Details ▾ Order ⬇️ Specifications: 🔗 Link Example: h",
+                  "will not accept any kind of complaints. ❌ 1925 👎 Telegram Dislike ➡️ [ High Quality | 5K/Day | No Refill ] $0.225 10 1 000 000 Details ▾ Order ⬇️ Specifications: 🔗 Link Example:"
+                ]
+              },
+              "downvote": {
+                "count": 4,
+                "inServiceRows": 3,
+                "quotes": [
+                  "ill not accept any kind of complaints. ❌ Reddit - Upvotes / Downvotes 4375 🗳️ Reddit Upvotes ➡️ [ High Quality | 1K/Day | Non Drop ] $24.15 3 100 Details ▾ Order ⬇️ Specifications",
+                  "Day ‼️ Refill: Non-Drop (Lifetime Refill) ✅ 4378 ⬇️ Reddit Downvotes ➡️ [ High Quality | 1K/Day | Non Drop ] $36.225 3 100 Details ▾ Order 4376 🗳️ Reddit Comment Upvotes ➡️ [ Hig",
+                  "Refill: Non-Drop (Lifetime Refill) ✅ 4377 ⬇️ Reddit Comment Downvotes ➡️ [ High Quality | 1K/Day | Non Drop ] $24.15 5 1 000 Details ▾ Order ⬇️ Specifications: 🔗 Link Example: htt"
+                ]
+              },
+              "review": {
+                "count": 53,
+                "inServiceRows": 25,
+                "quotes": [
+                  "ny kind of complaints. ❌ Facebook - Group Members/ Shares / Reviews / Poll Votes 2439 🙍‍♂️ Facebook Group Members ➡️ [ High Quality | 1K/Day | Non Drop ] $4.494 100 1 000 000 Deta",
+                  "l not accept any kind of complaints. ❌ 2437 ⭐ Facebook Page Reviews - Yes - Recommendations ➡️ [ High Quality | 50/Day | No Refill ] $37.80 10 1 000 Details ▾ Order ⬇️ Specificatio",
+                  "00 / Day ‼️ Refill: Non-Drop (Lifetime Refill) ✅ Trustpilot Reviews 512 🧑‍✈️ Trust Pilot Reviews ➡️ [ Custom Reviews ] $7560.00 1 1 000 Details ▾ Order ⬇️ Specifications: 🔗 Link",
+                  "Lifetime Refill) ✅ Trustpilot Reviews 512 🧑‍✈️ Trust Pilot Reviews ➡️ [ Custom Reviews ] $7560.00 1 1 000 Details ▾ Order ⬇️ Specifications: 🔗 Link Example: https://www.trustpilo",
+                  "rustpilot Reviews 512 🧑‍✈️ Trust Pilot Reviews ➡️ [ Custom Reviews ] $7560.00 1 1 000 Details ▾ Order ⬇️ Specifications: 🔗 Link Example: https://www.trustpilot.com/review/socialm"
+                ]
+              }
+            }
+          }
+        },
+        "refill-terms": {
+          "proposed": "pass",
+          "reason": "refill appears with a window 3264 time(s) and with a trigger 3551 time(s); confirm both are visible before payment",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/boostero.com/services.html.gz",
+                "sha256": "de147783bc796a98d78ea98d8925378990eb23e5aa2cf59fb9a2f9eb13d46b2f",
+                "url": "https://boostero.com/best-smm-services",
+                "foundVia": "link on the homepage"
+              },
+              {
+                "file": "snapshots/2026-09-30/boostero.com/terms.html",
+                "sha256": "64511e3a0abb5015583d05978e534227a98344f24b35edec29258e7ce2617aac",
+                "url": "https://boostero.com/terms"
+              },
+              {
+                "file": "snapshots/2026-09-30/boostero.com/homepage.html",
+                "sha256": "ffc547bf56b4167e61d22f3043864c06431757939c70f6f9c6addd918d324ef9",
+                "url": "https://boostero.com/"
+              }
+            ],
+            "refillMentions": 3674,
+            "windowNear": 3264,
+            "triggerNear": 3551,
+            "quotes": [
+              "s [ For New Posts ] YouTube - Watch Hours [ 1 Hour+ Videos ] YouTube - Subscribers [ Non Drop ] YouTube - Subscribers [ Country Targeted ] YouTube - Views [ No Refill ] YouTube - Views [ Refill & Non Drop ] YouTube - Views [ Fast - Great For Big Orders ] YouTube - Views [ High Retention ] YouTube - Views [ Country Targeted ] YouTube - Real & Active Views [ RAV ] YouTube - Google Ads [ Skippable ADS ] YouTube - Native ADS Views YouTube - Live Stream Views YouTube - Likes [ No",
+              "- Watch Hours [ 1 Hour+ Videos ] YouTube - Subscribers [ Non Drop ] YouTube - Subscribers [ Country Targeted ] YouTube - Views [ No Refill ] YouTube - Views [ Refill & Non Drop ] YouTube - Views [ Fast - Great For Big Orders ] YouTube - Views [ High Retention ] YouTube - Views [ Country Targeted ] YouTube - Real & Active Views [ RAV ] YouTube - Google Ads [ Skippable ADS ] YouTube - Native ADS Views YouTube - Live Stream Views YouTube - Likes [ No Refill ] YouTube - Likes [",
+              "eted ] YouTube - Real & Active Views [ RAV ] YouTube - Google Ads [ Skippable ADS ] YouTube - Native ADS Views YouTube - Live Stream Views YouTube - Likes [ No Refill ] YouTube - Likes [ Refill & Non Drop ] YouTube - Likes [ Country Targeted ] YouTube - Comments YouTube - Comments [ Country Targeted ] YouTube - Shares YouTube - Shorts Threads - Followers / Likes / Views / Reposts / Comments Instagram - Followers [ Working After Update ] ✅ Instagram - Monthly Growth Packages I",
+              "ive Views [ RAV ] YouTube - Google Ads [ Skippable ADS ] YouTube - Native ADS Views YouTube - Live Stream Views YouTube - Likes [ No Refill ] YouTube - Likes [ Refill & Non Drop ] YouTube - Likes [ Country Targeted ] YouTube - Comments YouTube - Comments [ Country Targeted ] YouTube - Shares YouTube - Shorts Threads - Followers / Likes / Views / Reposts / Comments Instagram - Followers [ Working After Update ] ✅ Instagram - Monthly Growth Packages Instagram - Engagement Packa",
+              "te Growth Packages TikTok - Auto Likes [ For New Posts ] TikTok - Auto Views [ For New Posts ] TikTok - Auto Comments [ For New Posts ] TikTok - Followers [ No Refill ] TikTok - Followers [ Refill & Non Drop ] TikTok - Followers [ Country Targeted ] TikTok - Likes [ Refill & Non Drop ] TikTok - Likes [ Country Targeted ] TikTok - Views [ No Refill ] TikTok - Views [ Refill / Non Drop ] TikTok - Views [ High Retention - Non Drop ] TikTok - Views [ Country Targeted ] TikTok - V"
+            ]
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "a channel is reachable in contact.html, homepage.html, terms.html and 24/7 is availability, not a stated response time; nothing else states one",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/boostero.com/contact.html",
+                "sha256": "01ddf7f79a80090dbc3e3f25adb960723c4a633336b7d3cd4195b8bb1b90c23a",
+                "url": "https://boostero.com/contact"
+              },
+              {
+                "file": "snapshots/2026-09-30/boostero.com/homepage.html",
+                "sha256": "ffc547bf56b4167e61d22f3043864c06431757939c70f6f9c6addd918d324ef9",
+                "url": "https://boostero.com/"
+              },
+              {
+                "file": "snapshots/2026-09-30/boostero.com/terms.html",
+                "sha256": "64511e3a0abb5015583d05978e534227a98344f24b35edec29258e7ce2617aac",
+                "url": "https://boostero.com/terms"
+              }
+            ],
+            "emails": [
+              "support@boostero.com"
+            ],
+            "contactLinks": [
+              "/contact",
+              "mailto:support@boostero.com",
+              "/tickets",
+              "#terms-contact"
+            ],
+            "responseTime": [],
+            "alwaysOn": 12
+          }
+        },
+        "domain-age": {
+          "proposed": "pass",
+          "reason": "registered 2013-11-20, 12 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2013-11-20T09:23:18Z",
+            "source": "measurements/2026-09-30/rdap/boostero.com.json",
+            "query": "https://rdap.org/domain/boostero.com",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 2,
+          "source": {
+            "file": "snapshots/2026-09-30/boostero.com/homepage.html",
+            "sha256": "ffc547bf56b4167e61d22f3043864c06431757939c70f6f9c6addd918d324ef9",
+            "url": "https://boostero.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 1,
+              "hits": [
+                "Refill terms per service Encrypted checkout No password needed  [Best]  SMM Panel for Fast, Reliable Social Media Growth The"
+              ]
+            },
+            "fastest": {
+              "count": 1,
+              "hits": [
+                "streams a stronger opening count on one of the  [fastest] -growing video platforms. Rumble SMM Panel Reddit Bring more upvotes,"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 12
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/boostero.com/homepage.html",
+        "snapshots/2026-09-30/boostero.com/terms.html",
+        "snapshots/2026-09-30/boostero.com/services.html.gz",
+        "snapshots/2026-09-30/boostero.com/contact.html",
+        "snapshots/2026-09-30/boostero.com/api.html"
+      ]
+    },
+    {
+      "panel": "YoYo Media",
+      "domain": "yoyomedia.in",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "fail",
+          "reason": "12177 characters of text but only 5 rate(s) and 3 per-1000 marker(s): the rates are not on the page that was read (the services URL answered with the homepage again)",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/yoyomedia.in/services.html",
+              "sha256": "5a3096198fd4819bc461df8dfeebecc8cb1651c125e26a2cc76e135355d8008b",
+              "url": "https://yoyomedia.in/services",
+              "foundVia": "link on the homepage"
+            },
+            "servedTheHomepage": true,
+            "textChars": 12177,
+            "rates": 5,
+            "per1000": 3,
+            "quotes": [
+              "ws to Telegram members - every service starts at just $0.01 per 1,000. No contracts, no minimums, no waiting. Register free today and place your first order in under two minutes. 4",
+              "th services for every major platform starting at just $0.01 per 1,000. Whether you want Instagram followers, YouTube watch hours, TikTok views, Facebook likes or Telegram members,",
+              "am, X, LinkedIn, Spotify, and more Prices starting at $0.01 per 1,000 — the lowest verified rate in the market 95%+ non-drop retention — your numbers stay, not disappear after a we",
+              "ok views to Telegram members - every service starts at just $0.01 per 1,000. No contracts, no minimums, no waiting. Register free today and place your first order in under two minu"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "pass",
+          "reason": "2 hit(s), none of them in a catalogue row, so no row names such a service; read the quotes and overturn this if one does",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/yoyomedia.in/services.html",
+              "sha256": "5a3096198fd4819bc461df8dfeebecc8cb1651c125e26a2cc76e135355d8008b",
+              "url": "https://yoyomedia.in/services",
+              "foundVia": "link on the homepage"
+            },
+            "byWord": {
+              "review": {
+                "count": 2,
+                "inServiceRows": 1,
+                "quotes": [
+                  "our first order in under two minutes. 4.9/5 Rating over 500 Reviews Sign up 1000+ Active Orders 150k+ Happy Customers $0.01/K Pricing starts from Sign in Sign up Login to your acco"
+                ]
+              }
+            }
+          }
+        },
+        "refill-terms": {
+          "proposed": "fail",
+          "reason": "refill is not mentioned on the homepage, the services page or the terms",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/yoyomedia.in/services.html",
+                "sha256": "5a3096198fd4819bc461df8dfeebecc8cb1651c125e26a2cc76e135355d8008b",
+                "url": "https://yoyomedia.in/services",
+                "foundVia": "link on the homepage"
+              },
+              {
+                "file": "snapshots/2026-09-30/yoyomedia.in/homepage.html",
+                "sha256": "4d79a2df3062f49933517f400a97c96a85a580b6927417323ff987e63c002a4e",
+                "url": "https://yoyomedia.in/"
+              }
+            ],
+            "refillMentions": 0,
+            "windowNear": 0,
+            "triggerNear": 0,
+            "quotes": []
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "a channel is reachable in contact.html, homepage.html and 24/7 is availability, not a stated response time; nothing else states one",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/yoyomedia.in/contact.html",
+                "sha256": "6a5dcdd6513b4db3ec29db24fc6a078727d1bccb6d5bc9ccd447b61c173031d6",
+                "url": "https://yoyomedia.in/blog/how-the-cheapest-tiktok-panels-help-you-grow-faster-in-2026"
+              },
+              {
+                "file": "snapshots/2026-09-30/yoyomedia.in/homepage.html",
+                "sha256": "4d79a2df3062f49933517f400a97c96a85a580b6927417323ff987e63c002a4e",
+                "url": "https://yoyomedia.in/"
+              }
+            ],
+            "emails": [],
+            "contactLinks": [
+              "https://yoyomedia.in/blog/how-the-cheapest-tiktok-panels-help-you-grow-faster-in-2026"
+            ],
+            "responseTime": [],
+            "alwaysOn": 5
+          }
+        },
+        "domain-age": {
+          "proposed": "pass",
+          "reason": "registered 2017-05-09, 9 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2017-05-09T06:09:55.267Z",
+            "source": "measurements/2026-09-30/rdap/yoyomedia.in.json",
+            "query": "https://rdap.org/domain/yoyomedia.in",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 12,
+          "source": {
+            "file": "snapshots/2026-09-30/yoyomedia.in/homepage.html",
+            "sha256": "4d79a2df3062f49933517f400a97c96a85a580b6927417323ff987e63c002a4e",
+            "url": "https://yoyomedia.in/"
+          },
+          "byWord": {
+            "best": {
+              "count": 4,
+              "hits": [
+                "World's  [Best]  and Cheapest SMM Panel Services - YoYo Media Toggle",
+                "Reseller Panel ✓ Cheapest Prices ✓ Instant Delivery ✓  [Best]  Quality ✓ 24/7 Support Start working with a YoYo",
+                "Support Start working with a YoYo Media that provides  [Best]  SMM Panel services to generate awareness, drive traffic, connect",
+                "& Safe Transactions Instant Delivery Fast & Automatic Delivery  [Best]  Quality High Quality Services 24/7 Support We're here to"
+              ]
+            },
+            "cheapest": {
+              "count": 5,
+              "hits": [
+                "World's Best and  [Cheapest]  SMM Panel Services - YoYo Media Toggle navigation YoYo",
+                "in Register Social Media Marketing Panel : YoYo Media  [Cheapest]  SMM Panel and Reseller Panel ✓ Cheapest Prices ✓",
+                "YoYo Media Cheapest SMM Panel and Reseller Panel ✓  [Cheapest]  Prices ✓ Instant Delivery ✓ Best Quality ✓ 24/7",
+                "traffic sources. YoYo Media is #1 Platform to get  [Cheapest]  SMM Panel and SMM Reseller Panel Services. A Few",
+                "the SMM World! Great Pricing We are currently the  [Cheapest]  SMM Panel in the market. Monitor Progress With our"
+              ]
+            },
+            "#1": {
+              "count": 1,
+              "hits": [
+                "rely on a single traffic sources. YoYo Media is  [#1]  Platform to get Cheapest SMM Panel and SMM Reseller"
+              ]
+            },
+            "fastest": {
+              "count": 1,
+              "hits": [
+                "& reactions fast Telegram SMM Panel Telegram is the  [fastest] -growing community platform in India, Southeast Asia, and the Middle"
+              ]
+            },
+            "most trusted": {
+              "count": 1,
+              "hits": [
+                "media Now ! Register Now About YoYo Media World's  [Most Trusted]  SMM Panel Boost Your Reach. Build Your Brand. Grow"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 9
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/yoyomedia.in/homepage.html",
+        "snapshots/2026-09-30/yoyomedia.in/services.html",
+        "snapshots/2026-09-30/yoyomedia.in/contact.html",
+        "snapshots/2026-09-30/yoyomedia.in/api.html"
+      ]
+    },
+    {
+      "panel": "BulkFollows",
+      "domain": "bulkfollows.com",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "fail",
+          "reason": "19474 characters of text but only 1 rate(s) and 0 per-1000 marker(s): the rates are not on the page that was read (the services URL answered with the homepage again)",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/bulkfollows.com/services.html",
+              "sha256": "954d04dc4b1cdd07e36ed562f6fbf799199137d18b9d4debedf64387d710dd70",
+              "url": "https://bulkfollows.com/services",
+              "foundVia": "/services"
+            },
+            "servedTheHomepage": true,
+            "textChars": 19474,
+            "rates": 1,
+            "per1000": 0,
+            "quotes": [
+              "sh (Bangladesh), and cryptocurrency. The minimum deposit is $5, and most payments process within minutes. How do I place an order? Select your desired service, enter the social med"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "pass",
+          "reason": "none of report, negative, dislike, downvote, review appears in the catalogue",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/bulkfollows.com/services.html",
+              "sha256": "954d04dc4b1cdd07e36ed562f6fbf799199137d18b9d4debedf64387d710dd70",
+              "url": "https://bulkfollows.com/services",
+              "foundVia": "/services"
+            },
+            "byWord": {}
+          }
+        },
+        "refill-terms": {
+          "proposed": "pass",
+          "reason": "refill appears with a window 2 time(s) and with a trigger 2 time(s); confirm both are visible before payment",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/bulkfollows.com/services.html",
+                "sha256": "954d04dc4b1cdd07e36ed562f6fbf799199137d18b9d4debedf64387d710dd70",
+                "url": "https://bulkfollows.com/services",
+                "foundVia": "/services"
+              },
+              {
+                "file": "snapshots/2026-09-30/bulkfollows.com/terms.html",
+                "sha256": "bef7a8791384373fad634d52669753bade6547fcf389f177e090f603b263fda3",
+                "url": "https://bulkfollows.com/terms"
+              },
+              {
+                "file": "snapshots/2026-09-30/bulkfollows.com/homepage.html",
+                "sha256": "318b6d5c53819f992e194322897fdee0449a5bb0bf98d6fa7ee57079267e67a0",
+                "url": "https://bulkfollows.com/"
+              }
+            ],
+            "refillMentions": 4,
+            "windowNear": 2,
+            "triggerNear": 2,
+            "quotes": [
+              "m is very dedicated and well-trained. Bulkfollows offers a money-back guarantee in case of any drop, and if you run into any problem, so we are always ready to refill your package in case of any issue. We guarantee that the accounts and activities we provide you will stay alive forever. 24 / 7 Support Service The Bulkfollows support team is well-trained and always ready to help you with everything. We offer 24 / 7 support in a friendly environment. You can contact us at any t",
+              "ry effort to deliver quality profiles across all orders. If your page already had 100,000 or more followers, likes, or views prior to placing an order with us, refill protection will not apply — even if you ordered a refill service — as we are unable to determine the source of any pre-existing losses. Refund Policy After making a deposit, you may request a refund of your remaining balance to your original payment method at any time. Refunds are processed within 6–12 hours , t",
+              "If your page already had 100,000 or more followers, likes, or views prior to placing an order with us, refill protection will not apply — even if you ordered a refill service — as we are unable to determine the source of any pre-existing losses. Refund Policy After making a deposit, you may request a refund of your remaining balance to your original payment method at any time. Refunds are processed within 6–12 hours , though the time for funds to appear in your account depend",
+              "m is very dedicated and well-trained. Bulkfollows offers a money-back guarantee in case of any drop, and if you run into any problem, so we are always ready to refill your package in case of any issue. We guarantee that the accounts and activities we provide you will stay alive forever. 24 / 7 Support Service The Bulkfollows support team is well-trained and always ready to help you with everything. We offer 24 / 7 support in a friendly environment. You can contact us at any t"
+            ]
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "a channel is reachable in homepage.html, terms.html and 24/7 is availability, not a stated response time; nothing else states one",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/bulkfollows.com/homepage.html",
+                "sha256": "318b6d5c53819f992e194322897fdee0449a5bb0bf98d6fa7ee57079267e67a0",
+                "url": "https://bulkfollows.com/"
+              },
+              {
+                "file": "snapshots/2026-09-30/bulkfollows.com/terms.html",
+                "sha256": "bef7a8791384373fad634d52669753bade6547fcf389f177e090f603b263fda3",
+                "url": "https://bulkfollows.com/terms"
+              }
+            ],
+            "emails": [
+              "support@bulkfollows.com"
+            ],
+            "contactLinks": [
+              "mailto:support@bulkfollows.com"
+            ],
+            "responseTime": [],
+            "alwaysOn": 11
+          }
+        },
+        "domain-age": {
+          "proposed": "pass",
+          "reason": "registered 2013-09-20, 13 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2013-09-20T17:02:28Z",
+            "source": "measurements/2026-09-30/rdap/bulkfollows.com.json",
+            "query": "https://rdap.org/domain/bulkfollows.com",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 25,
+          "source": {
+            "file": "snapshots/2026-09-30/bulkfollows.com/homepage.html",
+            "sha256": "318b6d5c53819f992e194322897fdee0449a5bb0bf98d6fa7ee57079267e67a0",
+            "url": "https://bulkfollows.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 13,
+              "hits": [
+                "24/7 Support through ticket, Whatsapp, Telegram About Bulkfollows World's  [Best]  Cheap & Easy Smm Panel Bulkfollows is a globally",
+                "is designed to be user-friendly and cost-effective, providing the  [best]  value for your money. Smm Reseller Panel Our reseller",
+                "to increase your customers with our Snapchat SMM services.  [Best]  SMM Service Our Panel is one of the Best",
+                "Best SMM Service Our Panel is one of the  [Best]  SMM Panels that pride ourselves on offering the best",
+                "Best SMM Panels that pride ourselves on offering the  [best]  SMM services. With our affordable prices, high-quality services, and",
+                "and exceptional customer support, we aim to provide the  [best]  experience for our clients. SMM Panel Services Bulkfollows offers",
+                "services at competitive prices. Features Of Bulkfollows Register Now  [Best]  Smm Panel A strong community covered under the name",
+                "Smm Panel Provider We take pride in being the  [best]  social media marketing services provider, and that too worldwide.",
+                "Our wholesale social media marketing service packages are the  [best]  you can get online. We offer these packages to",
+                "media marketing panel services, then our platform is the  [best]  one for you. We have very efficient SMM reseller",
+                "marketing services to cover it all. Therefore, buy our  [best]  PUBG SMM services if you are looking for a",
+                "Individuals who want to sell SMM Panel Services. Our  [best]  services include Buy Telegram Members, Buy Twitter Followers, Buy",
+                "services on social media, then Bulkfollows will offer the  [best]  solution to your problems. We have targeted packages that"
+              ]
+            },
+            "cheapest": {
+              "count": 11,
+              "hits": [
+                "SMM Panel —  [Cheapest]  SMM Services Provider | BulkFollows Toggle navigation Sign in",
+                "ensure your orders are processed as fast as possible.  [Cheapest]  SMM Panel Bulkfollows is committed to offering the most",
+                "Pricing starts from a minimal amount, making us the  [cheapest]  SMM panel available. Easy SMM Panel Furthermore, Our SMM",
+                "is fully designed for the user's needs and satisfaction.  [Cheapest]  Smm Reseller Panel X smm panel Boost your X",
+                "smm panel provider located in India, offering services worldwide.  [Cheapest]  smm panel Bulkfollows is a fully established and authentic",
+                "marketing on all online platforms. We simply offer the  [cheapest]  packages to boost engagements and visibility. Our services are",
+                "have very efficient SMM reseller panel services at the  [cheapest]  prices on our online platform. Our SMM reseller panel",
+                "you are looking for a high ranking with the  [cheapest]  prices online. View more Statistics of Bulkfollows Bulkfollow clients",
+                "because of the quality we offer. Bulkfollows offers the  [cheapest]  services in the world, and at the same time,",
+                "the right place because here you can find the  [cheapest]  SMM packages for your needs. We offer all major",
+                "of services to make your marketing campaign easier. Our  [cheapest]  and performance oriented packages can improve your social media"
+              ]
+            },
+            "fastest": {
+              "count": 1,
+              "hits": [
+                "ensure that our services help enhance your online reputation.  [Fastest]  SMM Panel Our panel is built to deliver results"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 13
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/bulkfollows.com/homepage.html",
+        "snapshots/2026-09-30/bulkfollows.com/terms.html",
+        "snapshots/2026-09-30/bulkfollows.com/services.html",
+        "snapshots/2026-09-30/bulkfollows.com/api.html"
+      ]
+    },
+    {
+      "panel": "Peakerr",
+      "domain": "peakerr.com",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "pass",
+          "reason": "16 rates and 10 per-1000 markers are in the page as served (the services URL answered with the homepage again)",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/peakerr.com/services.html",
+              "sha256": "efdb5094b9918dd1dbe0e197ca87fdd798f93eb363678b6dd11c1e9c4c9cc9ed",
+              "url": "https://peakerr.com/services",
+              "foundVia": "link on the homepage"
+            },
+            "servedTheHomepage": true,
+            "textChars": 18053,
+            "rates": 16,
+            "per1000": 10,
+            "quotes": [
+              ". Real-looking profiles and drip-feed available. From $0.001/1000 Instagram SMM Panel YouTube Services PEAKERR – Best & Cheapest SMM Panel for YouTube Views, subscribers, watch hou",
+              "Boost your channel and monetization eligibility. From $0.50/1000 YouTube SMM Panel TikTok Services PEAKERR – Best & Cheapest SMM Panel for TikTok Followers, video views, likes and",
+              "your TikTok presence fast and reach more people. From $0.001/1000 TikTok SMM Panel Facebook Services PEAKERR – Best & Cheapest SMM Panel for Facebook Page likes, post likes, follow",
+              "d more. Real-looking profiles and drip-feed available. From $0.001/1000 Instagram SMM Panel YouTube Services PEAKERR – Best & Cheapest SMM Panel for YouTube Views, subscribers, wat"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "pass",
+          "reason": "3 hit(s), none of them in a catalogue row, so no row names such a service; read the quotes and overturn this if one does",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/peakerr.com/services.html",
+              "sha256": "efdb5094b9918dd1dbe0e197ca87fdd798f93eb363678b6dd11c1e9c4c9cc9ed",
+              "url": "https://peakerr.com/services",
+              "foundVia": "link on the homepage"
+            },
+            "byWord": {
+              "review": {
+                "count": 3,
+                "inServiceRows": 0,
+                "quotes": [
+                  "ity difficult to evaluate. Join PEAKERR Free Today Customer Reviews Customer Reviews Don’t know what to expect when placing orders on our panel? See what our customers say about th",
+                  "evaluate. Join PEAKERR Free Today Customer Reviews Customer Reviews Don’t know what to expect when placing orders on our panel? See what our customers say about their experience be",
+                  "platform and service, enter the correct link and quantity, review the details and submit the order. Still have a question? Our support team is available to help with orders, payme"
+                ]
+              }
+            }
+          }
+        },
+        "refill-terms": {
+          "proposed": "fail",
+          "reason": "refill appears 14 time(s) but a window is near it 0 time(s) and a trigger 2 time(s): the pages read do not state both",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/peakerr.com/services.html",
+                "sha256": "efdb5094b9918dd1dbe0e197ca87fdd798f93eb363678b6dd11c1e9c4c9cc9ed",
+                "url": "https://peakerr.com/services",
+                "foundVia": "link on the homepage"
+              },
+              {
+                "file": "snapshots/2026-09-30/peakerr.com/terms.html",
+                "sha256": "c4a52358b1688664db02406dbe5dc95f9da5ae8a8275338507e0bda44d79aef5",
+                "url": "https://peakerr.com/terms"
+              },
+              {
+                "file": "snapshots/2026-09-30/peakerr.com/homepage.html",
+                "sha256": "42d077ba521cbd4cbe50e49a0e90d1bdddf322519005acb04431b40e6880af25",
+                "url": "https://peakerr.com/"
+              }
+            ],
+            "refillMentions": 14,
+            "windowNear": 0,
+            "triggerNear": 2,
+            "quotes": [
+              "nternational users. Slow processing can cause orders to remain pending for long periods. Limited service categories may exclude newer social platforms. Missing refill options can create problems when delivered counts drop. Limited customer support can delay order and payment resolutions. Unstable or missing API access makes reseller automation difficult. An unclear track record can make service quality difficult to evaluate. Join PEAKERR Free Today Customer Reviews Customer R",
+              "nternational users. Slow processing can cause orders to remain pending for long periods. Limited service categories may exclude newer social platforms. Missing refill options can create problems when delivered counts drop. Limited customer support can delay order and payment resolutions. Unstable or missing API access makes reseller automation difficult. An unclear track record can make service quality difficult to evaluate. Join PEAKERR Free Today Customer Reviews Customer R"
+            ]
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "a channel is reachable in contact.html, homepage.html, terms.html and 24/7 is availability, not a stated response time; nothing else states one",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/peakerr.com/contact.html",
+                "sha256": "1e7fc7d617bff4674201b1a17d8c8a1343722545e56a66c5d4da4c87650ed12d",
+                "url": "https://peakerr.com/contact"
+              },
+              {
+                "file": "snapshots/2026-09-30/peakerr.com/homepage.html",
+                "sha256": "42d077ba521cbd4cbe50e49a0e90d1bdddf322519005acb04431b40e6880af25",
+                "url": "https://peakerr.com/"
+              },
+              {
+                "file": "snapshots/2026-09-30/peakerr.com/terms.html",
+                "sha256": "c4a52358b1688664db02406dbe5dc95f9da5ae8a8275338507e0bda44d79aef5",
+                "url": "https://peakerr.com/terms"
+              }
+            ],
+            "emails": [],
+            "contactLinks": [
+              "/contact",
+              "#support-ticket",
+              "#order-support",
+              "#payment-support",
+              "#before-contacting"
+            ],
+            "responseTime": [],
+            "alwaysOn": 9
+          }
+        },
+        "domain-age": {
+          "proposed": "pass",
+          "reason": "registered 2014-09-12, 12 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2014-09-12T20:37:46Z",
+            "source": "measurements/2026-09-30/rdap/peakerr.com.json",
+            "query": "https://rdap.org/domain/peakerr.com",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 69,
+          "source": {
+            "file": "snapshots/2026-09-30/peakerr.com/homepage.html",
+            "sha256": "42d077ba521cbd4cbe50e49a0e90d1bdddf322519005acb04431b40e6880af25",
+            "url": "https://peakerr.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 34,
+              "hits": [
+                "SMM Panel :  [Best]  & Cheapest SMM Services Provider Toggle navigation PEAK ERR",
+                "content PEAKERR - World's #1 Trusted SMM Panel The  [Best]  SMM Panel At The Cheapest Price Grow your social",
+                "Cheapest Price Grow your social media faster with the  [Best]  SMM Panel at the Cheapest Price. Get affordable SMM",
+                "TikTok, Facebook, Telegram and Twitter/X. Instagram Services PEAKERR –  [Best]  & Cheapest SMM Panel for Instagram Followers, likes, views,",
+                "From $0.001/1000 Instagram SMM Panel YouTube Services PEAKERR –  [Best]  & Cheapest SMM Panel for YouTube Views, subscribers, watch",
+                "From $0.50/1000 YouTube SMM Panel TikTok Services PEAKERR –  [Best]  & Cheapest SMM Panel for TikTok Followers, video views,",
+                "From $0.001/1000 TikTok SMM Panel Facebook Services PEAKERR –  [Best]  & Cheapest SMM Panel for Facebook Page likes, post",
+                "From $0.15/1000 Facebook SMM Panel Telegram Services PEAKERR –  [Best]  & Cheapest SMM Panel for Telegram Channel members, post",
+                "Telegram SMM Panel Twitter / X Services PEAKERR –  [Best]  & Cheapest SMM Panel for X (Twitter) Followers, likes,",
+                "reliable global SMM panel from the rest. PEAKERR —  [Best]  SMM Panel Worldwide Prices start at $0.01/1000 — affordable",
+                "price ne mujhe impress kar diya. One of the  [best]  panels worldwide.” A Arjun Sharma Verified Customer YouTube +",
+                "PEAKERR Everything you need to know about the world's  [best]  and cheapest SMM panel. What is the best SMM",
+                "world's best and cheapest SMM panel. What is the  [best]  SMM panel in the world? The best SMM panel",
+                "is the best SMM panel in the world? The  [best]  SMM panel in the world should offer affordable global",
+                "digital wallets and other supported global gateways. PEAKERR –  [Best]  & Cheapest SMM Panel in India. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Pakistan. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in the USA. Order Instagram,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Bangladesh. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Russia. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Vietnam. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Sri Lanka. Order Instagram,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in the Philippines. Order Instagram,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Morocco. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in China. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Mexico. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Uganda. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Turkey. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in UAE. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Nigeria. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Tanzania. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Argentina. Order Instagram, YouTube,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in the United Kingdom. Order",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in South Korea. Order Instagram,",
+                "and other SMM services with fast delivery. PEAKERR –  [Best]  & Cheapest SMM Panel in Myanmar. Order Instagram, YouTube,"
+              ]
+            },
+            "cheapest": {
+              "count": 33,
+              "hits": [
+                "SMM Panel : Best &  [Cheapest]  SMM Services Provider Toggle navigation PEAK ERR Home About",
+                "Trusted SMM Panel The Best SMM Panel At The  [Cheapest]  Price Grow your social media faster with the Best",
+                "media faster with the Best SMM Panel at the  [Cheapest]  Price. Get affordable SMM services for Instagram, YouTube, TikTok,",
+                "Telegram and Twitter/X. Instagram Services PEAKERR – Best &  [Cheapest]  SMM Panel for Instagram Followers, likes, views, story views,",
+                "Instagram SMM Panel YouTube Services PEAKERR – Best &  [Cheapest]  SMM Panel for YouTube Views, subscribers, watch hours, likes",
+                "YouTube SMM Panel TikTok Services PEAKERR – Best &  [Cheapest]  SMM Panel for TikTok Followers, video views, likes and",
+                "TikTok SMM Panel Facebook Services PEAKERR – Best &  [Cheapest]  SMM Panel for Facebook Page likes, post likes, followers,",
+                "Facebook SMM Panel Telegram Services PEAKERR – Best &  [Cheapest]  SMM Panel for Telegram Channel members, post views and",
+                "Panel Twitter / X Services PEAKERR – Best &  [Cheapest]  SMM Panel for X (Twitter) Followers, likes, reposts, impressions",
+                "Enjoy fantastic results! Transparent Pricing Sample Prices — World's  [Cheapest]  SMM Panel No hidden fees. What you see is",
+                "you need to know about the world's best and  [cheapest]  SMM panel. What is the best SMM panel in",
+                "and other supported global gateways. PEAKERR – Best &  [Cheapest]  SMM Panel in India. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Pakistan. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in the USA. Order Instagram, YouTube, TikTok,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Bangladesh. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Russia. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Vietnam. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Sri Lanka. Order Instagram, YouTube, TikTok,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in the Philippines. Order Instagram, YouTube, TikTok,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Morocco. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in China. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Mexico. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Uganda. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Turkey. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in UAE. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Nigeria. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Tanzania. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Argentina. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in the United Kingdom. Order Instagram, YouTube,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in South Korea. Order Instagram, YouTube, TikTok,",
+                "SMM services with fast delivery. PEAKERR – Best &  [Cheapest]  SMM Panel in Myanmar. Order Instagram, YouTube, TikTok, Facebook,",
+                "SMM Panel Philippines SMM Panel Vietnam PEAKERR World's #1  [Cheapest]  SMM Panel PEAKERR is a Cheapest SMM Panel for",
+                "PEAKERR World's #1 Cheapest SMM Panel PEAKERR is a  [Cheapest]  SMM Panel for Instagram followers, YouTube views, TikTok likes,"
+              ]
+            },
+            "#1": {
+              "count": 2,
+              "hits": [
+                "Up Free Skip to main content PEAKERR - World's  [#1]  Trusted SMM Panel The Best SMM Panel At The",
+                "Malaysia SMM Panel Philippines SMM Panel Vietnam PEAKERR World's  [#1]  Cheapest SMM Panel PEAKERR is a Cheapest SMM Panel"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 12
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/peakerr.com/homepage.html",
+        "snapshots/2026-09-30/peakerr.com/terms.html",
+        "snapshots/2026-09-30/peakerr.com/services.html",
+        "snapshots/2026-09-30/peakerr.com/contact.html",
+        "snapshots/2026-09-30/peakerr.com/api.html"
+      ]
+    },
+    {
+      "panel": "PRM4U",
+      "domain": "prm4u.com",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "pass",
+          "reason": "1933 rates and 1 per-1000 markers are in the page as served",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/prm4u.com/services.html.gz",
+              "sha256": "d979883327c08140c9b42457e664880f50ea26b9cb6b0473b71a807030f45350",
+              "url": "https://prm4u.com/services",
+              "foundVia": "link on the homepage"
+            },
+            "servedTheHomepage": false,
+            "textChars": 166051,
+            "rates": 1933,
+            "per1000": 1,
+            "quotes": [
+              "₫ XAF CFA XOF F YER YR ZAR R ZWG ZiG Quick jump ID Service Rate per 1000 Min order Max order Average time Telegram - [Ads Click / Report] 6386 Telegram Ads Click - [For Search] $0",
+              "ters to find what you need in seconds. 4,000+ services From $0.001 per 1K 70+ platforms services All Telegram - [Ads Click / Report] Telegram Views - [Single Post] Telegram Members",
+              "[Ads Click / Report] 6386 Telegram Ads Click - [For Search] $0.20 10 100 000 7 minutes View 6384 Telegram Ads Click - [For Channels] $0.20 10 1 000 000 13 minutes View 6389 Telegra",
+              "000 7 minutes View 6384 Telegram Ads Click - [For Channels] $0.20 10 1 000 000 13 minutes View 6389 Telegram Ads Click - [For Bot] $0.20 10 200 000 2 hours 11 minutes View 6393 Rep"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "fail",
+          "reason": "14 hit(s) on report, negative, dislike or downvote sit in what looks like a catalogue row; read each one",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/prm4u.com/services.html.gz",
+              "sha256": "d979883327c08140c9b42457e664880f50ea26b9cb6b0473b71a807030f45350",
+              "url": "https://prm4u.com/services",
+              "foundVia": "link on the homepage"
+            },
+            "byWord": {
+              "report": {
+                "count": 15,
+                "inServiceRows": 11,
+                "quotes": [
+                  "1 per 1K 70+ platforms services All Telegram - [Ads Click / Report] Telegram Views - [Single Post] Telegram Members - [Guarantee/Refill] Telegram Bot Start/App - [Activity/Referral",
+                  "00 Min order Max order Average time Telegram - [Ads Click / Report] 6386 Telegram Ads Click - [For Search] $0.20 10 100 000 7 minutes View 6384 Telegram Ads Click - [For Channels]",
+                  "k - [For Bot] $0.20 10 200 000 2 hours 11 minutes View 6393 Report Telegram Bot/Channels/Group $30.00 10 50 000 40 hours 47 minutes View Telegram Views - [Single Post] 1634 Telegra",
+                  "sitive Comments] $5.00 1 5 000 23 minutes View Instagram - [Report/Сomplain] 4491 Instagram Report/Сomplain - [Profile/Post/Comment] $50.00 50 10 000 58 hours 47 minutes View Insta",
+                  "3 minutes View Instagram - [Report/Сomplain] 4491 Instagram Report/Сomplain - [Profile/Post/Comment] $50.00 50 10 000 58 hours 47 minutes View Instagram Likes - [Low Quality Accoun"
+                ]
+              },
+              "dislike": {
+                "count": 3,
+                "inServiceRows": 3,
+                "quotes": [
+                  "es - [No Drop/Guarantee] YouTube Likes - [Referrer] YouTube Dislikes - [Bot / Real Account] YouTube Shares - [Real User] YouTube Shares - [Social Share] YouTube Shares - [Countries",
+                  "Likes - [Referrer Bilibili.com] $4.00 10 5 000 View YouTube Dislikes - [Bot / Real Account] 1660 Youtube Dislikes - [Speed: 50k/D] $0.12 5 500 000 17 hours 19 minutes View YouTube",
+                  "0 View YouTube Dislikes - [Bot / Real Account] 1660 Youtube Dislikes - [Speed: 50k/D] $0.12 5 500 000 17 hours 19 minutes View YouTube Shares - [Real User] 2111 YouTube Share - [Re"
+                ]
+              },
+              "review": {
+                "count": 22,
+                "inServiceRows": 17,
+                "quotes": [
+                  "Facebook Event - [Interest] $9.00 1 20 000 Facebook - [Page Reviews] 3525 Facebook Page Reviews - [Positive Reviews] $20.00 1 20 000 16 hours 48 minutes Twitter Followers - [Real A",
+                  "$9.00 1 20 000 Facebook - [Page Reviews] 3525 Facebook Page Reviews - [Positive Reviews] $20.00 1 20 000 16 hours 48 minutes Twitter Followers - [Real Active User] 4259 Twitter Fol",
+                  "ook - [Page Reviews] 3525 Facebook Page Reviews - [Positive Reviews] $20.00 1 20 000 16 hours 48 minutes Twitter Followers - [Real Active User] 4259 Twitter Followers - [Real User]",
+                  "5473 Apple App Store - [Worldwide Installing app + Launch + Reviews] $500.00 10 5 000 View Apple Music - [Plays/Rating] 5969 Apple Music Plays - [Worldwide Plays] $5.388 500 15 000",
+                  "Android App Installs - [Worldwide Installing app + Launch + Reviews] $400.00 5 20 000 23 hours 57 minutes Shazam - [Plays] 2720 Shazam Plays - [Speed:500000/D] $1.50 1 000 5 000 00"
+                ]
+              }
+            }
+          }
+        },
+        "refill-terms": {
+          "proposed": "pass",
+          "reason": "refill appears with a window 91 time(s) and with a trigger 26 time(s); confirm both are visible before payment",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/prm4u.com/services.html.gz",
+                "sha256": "d979883327c08140c9b42457e664880f50ea26b9cb6b0473b71a807030f45350",
+                "url": "https://prm4u.com/services",
+                "foundVia": "link on the homepage"
+              },
+              {
+                "file": "snapshots/2026-09-30/prm4u.com/terms.html",
+                "sha256": "c428f8eb9179504c19df08a6f24c9b246365137811ebcefda253e2eb592c62b6",
+                "url": "https://prm4u.com/terms"
+              },
+              {
+                "file": "snapshots/2026-09-30/prm4u.com/homepage.html",
+                "sha256": "05a7b4e12e3b26e72f762e7794aabdf1abfa56318b43c38f048aa91ba6992d88",
+                "url": "https://prm4u.com/"
+              }
+            ],
+            "refillMentions": 106,
+            "windowNear": 91,
+            "triggerNear": 26,
+            "quotes": [
+              "er/Active] Instagram Comments - [Verified Comments] Instagram - [Share/Saves/Impressions] Instagram Followers - [No Guarantee] Instagram Followers - [Guarantee/Refill] Instagram Followers - [Real Active User] Instagram Followers/Likes/Comments - [Activity] Youtube - [Report/Сomplain] YouTube Comments - [Random/Custom] YouTube Subscribers - [Real Active User] YouTube Subscribers/Likes/Comments - [Activity] YouTube Views - [Guarantee/No Drop] YouTube Views - [Real Ads Views + M",
+              "10 1 000 000 1 hour 26 minutes View 1724 Telegram views - [Views from the source Groups] $0.008 10 100 000 1 hour 23 minutes View Telegram Members - [Guarantee/Refill] 172 Telegram Members - [Refill 30D: Real accounts] $0.10 2 1 000 000 3 hours 35 minutes View 1652 Telegram Members - [Refill 60D: Real accounts] $0.15 2 1 000 000 1 hour 26 minutes View 4913 Telegram Members - [Refill 90D: Real accounts] $0.20 2 1 000 000 2 hours 19 minutes View 1597 Telegram Members - [Refill",
+              "iew 1724 Telegram views - [Views from the source Groups] $0.008 10 100 000 1 hour 23 minutes View Telegram Members - [Guarantee/Refill] 172 Telegram Members - [Refill 30D: Real accounts] $0.10 2 1 000 000 3 hours 35 minutes View 1652 Telegram Members - [Refill 60D: Real accounts] $0.15 2 1 000 000 1 hour 26 minutes View 4913 Telegram Members - [Refill 90D: Real accounts] $0.20 2 1 000 000 2 hours 19 minutes View 1597 Telegram Members - [Refill 180D: Real accounts] $0.25 2 1 0",
+              "iew Telegram Members - [Guarantee/Refill] 172 Telegram Members - [Refill 30D: Real accounts] $0.10 2 1 000 000 3 hours 35 minutes View 1652 Telegram Members - [Refill 60D: Real accounts] $0.15 2 1 000 000 1 hour 26 minutes View 4913 Telegram Members - [Refill 90D: Real accounts] $0.20 2 1 000 000 2 hours 19 minutes View 1597 Telegram Members - [Refill 180D: Real accounts] $0.25 2 1 000 000 43 minutes View 4871 Telegram Members - [Refill 360D: Real accounts] $0.30 2 1 000 000",
+              "$0.10 2 1 000 000 3 hours 35 minutes View 1652 Telegram Members - [Refill 60D: Real accounts] $0.15 2 1 000 000 1 hour 26 minutes View 4913 Telegram Members - [Refill 90D: Real accounts] $0.20 2 1 000 000 2 hours 19 minutes View 1597 Telegram Members - [Refill 180D: Real accounts] $0.25 2 1 000 000 43 minutes View 4871 Telegram Members - [Refill 360D: Real accounts] $0.30 2 1 000 000 7 hours 24 minutes View 1826 Telegram Members - [Refill 30D: High-quality / No Drop] $0.30 2"
+            ]
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "no email address and no contact, support or ticket link in contact.html, homepage.html, terms.html",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/prm4u.com/contact.html",
+                "sha256": "9899fb687db2c18fe3ab4d77f2a4b6900cd893b1f681308da27a6817bcdedc2f",
+                "url": "https://prm4u.com/signup"
+              },
+              {
+                "file": "snapshots/2026-09-30/prm4u.com/homepage.html",
+                "sha256": "05a7b4e12e3b26e72f762e7794aabdf1abfa56318b43c38f048aa91ba6992d88",
+                "url": "https://prm4u.com/"
+              },
+              {
+                "file": "snapshots/2026-09-30/prm4u.com/terms.html",
+                "sha256": "c428f8eb9179504c19df08a6f24c9b246365137811ebcefda253e2eb592c62b6",
+                "url": "https://prm4u.com/terms"
+              }
+            ],
+            "emails": [],
+            "contactLinks": [],
+            "responseTime": [],
+            "alwaysOn": 5
+          }
+        },
+        "domain-age": {
+          "proposed": "pass",
+          "reason": "registered 2020-07-18, 6 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2020-07-18T22:13:13Z",
+            "source": "measurements/2026-09-30/rdap/prm4u.com.json",
+            "query": "https://rdap.org/domain/prm4u.com",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 9,
+          "source": {
+            "file": "snapshots/2026-09-30/prm4u.com/homepage.html",
+            "sha256": "05a7b4e12e3b26e72f762e7794aabdf1abfa56318b43c38f048aa91ba6992d88",
+            "url": "https://prm4u.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 5,
+              "hits": [
+                "SMM Panel:  [Best]  and Cheapest SMM Services Provider PRM 4 U Social",
+                "Việt Polski Hindi فارسی Ukrainian Kyrgyz Sign up The  [best]  & cheapest SMM panel for every social network PRM4U",
+                "automates orders end-to-end. About SMM panels Which is the  [best]  and cheapest SMM panel? The best and cheapest SMM",
+                "Which is the best and cheapest SMM panel? The  [best]  and cheapest SMM panel combines low prices with real",
+                "Buy Linkedin Followers Buy Linkedin Connections Buy Linkedin Comments  [Best]  and Cheap SMM Panel Instagram SMM Panel TikTok SMM"
+              ]
+            },
+            "cheapest": {
+              "count": 4,
+              "hits": [
+                "SMM Panel: Best and  [Cheapest]  SMM Services Provider PRM 4 U Social Media Marketing",
+                "Hindi فارسی Ukrainian Kyrgyz Sign up The best &  [cheapest]  SMM panel for every social network PRM4U is a",
+                "end-to-end. About SMM panels Which is the best and  [cheapest]  SMM panel? The best and cheapest SMM panel combines",
+                "the best and cheapest SMM panel? The best and  [cheapest]  SMM panel combines low prices with real delivery and"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 6
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/prm4u.com/homepage.html",
+        "snapshots/2026-09-30/prm4u.com/terms.html",
+        "snapshots/2026-09-30/prm4u.com/services.html.gz",
+        "snapshots/2026-09-30/prm4u.com/contact.html",
+        "snapshots/2026-09-30/prm4u.com/api.html"
+      ]
+    },
+    {
+      "panel": "Smmwiz",
+      "domain": "smmwiz.com",
+      "ours": false,
+      "items": {
+        "catalogue-visible": {
+          "proposed": "pass",
+          "reason": "7921 rates and 99 per-1000 markers are in the page as served",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/smmwiz.com/services.html.gz",
+              "sha256": "b5e0fd238e6a8d76dc03acf6447dba3ba5819b6ebf2c791ef42d7dd80b53cc44",
+              "url": "https://smmwiz.com/services",
+              "foundVia": "link on the homepage"
+            },
+            "servedTheHomepage": false,
+            "textChars": 5455879,
+            "rates": 7921,
+            "per1000": 99,
+            "quotes": [
+              "N ₦ PHP ₱ PKR Rs RUB ₽ SAR ر.س THB ฿ TRY ₺ VND ₫ ID Service Rate per 1000 Min order Max order Average time Description ♛ Promotion [ CHEAPEST ] 🔥 SMM Panel 16389 Buy Instagram Vie",
+              "heir own keywords to get to your site or video . 🚀Speed 500/1000 visits daily ( if you need a custom speed write a tiket ) 📌Real users 100% 📣Country targeting 💡 Using this serv",
+              "heir own keywords to get to your site or video . 🚀Speed 500/1000 visits daily ( if you need a custom speed write a tiket ) 📌Real users 100% 📣Country targeting 9611 Buy Search fr",
+              "ETA Version] [Speed: 500k/day] [Start: 1 minute to 6 hours] $0.0009 100 2 147 483 647 13 minutes No support service ( cheap testing ) No cancel / refund in any case No support serv"
+            ]
+          }
+        },
+        "third-party-services": {
+          "proposed": "fail",
+          "reason": "254 hit(s) on report, negative, dislike or downvote sit in what looks like a catalogue row; read each one",
+          "needsReview": true,
+          "evidence": {
+            "source": {
+              "file": "snapshots/2026-09-30/smmwiz.com/services.html.gz",
+              "sha256": "b5e0fd238e6a8d76dc03acf6447dba3ba5819b6ebf2c791ef42d7dd80b53cc44",
+              "url": "https://smmwiz.com/services",
+              "foundVia": "link on the homepage"
+            },
+            "byWord": {
+              "report": {
+                "count": 130,
+                "inServiceRows": 18,
+                "quotes": [
+                  "s) Speed: 100k-1m/Day Lifetime Guarantee (Non Drop) Adwords Report Available Video should be less than 5 minutes for best results in speed 16987 Buy Youtube AdWords Views - [ Min -",
+                  "s) Speed: 100k-1m/Day Lifetime Guarantee (Non Drop) Adwords Report Available Video should be less than 5 minutes for best results in speed 16990 Buy Youtube AdWords Views - [ Min -",
+                  "s) Speed: 100k-1m/Day Lifetime Guarantee (Non Drop) Adwords Report Available Video should be less than 5 minutes for best results in speed 16991 Buy Youtube AdWords Views - [ Min -",
+                  "s) Speed: 100k-1m/Day Lifetime Guarantee (Non Drop) Adwords Report Available Video should be less than 5 minutes for best results in speed 16992 Buy Youtube AdWords Views - [ Min -",
+                  "s (If Overload: 48 Hrs) Non Drop Guarantee Min – 5k Adwords Report Available Video should be less than 5 minutes for best results in speed 17269 Buy 🇬🇧 YouTube UK Adwords Views –"
+                ]
+              },
+              "negative": {
+                "count": 77,
+                "inServiceRows": 14,
+                "quotes": [
+                  "art ] INSTANT $6.44 5 100 000 7 minutes 14812 Buy Instagram Negative Comments – [ Good Quality ] [ 0–6 Hours Start ] INSTANT $6.44 5 100 000 3 minutes 7552 Buy Instagram Custom Com",
+                  "0-6 HRS $6.32 10 400 000 3 minutes 14588 Buy 🇮🇳 Instagram Negative Emoji Comments [ Max - 5k ] [ Real Indian ] 0-6 HRS $6.32 10 200 000 2 hours 2 minutes 8654 Buy Instagram Rando",
+                  "000 8 hours 7 minutes 16393 Buy 1062 - Instagram Comments - Negative Emoji (RANDOM) 🤬😡😠😤😮‍💨🙄😒💩👿😈🤡🖕[20K] $5.85 10 20 000 16394 Buy 1061 - Instagram Custom Comment [20K]",
+                  "| R30 ♻️ | 10K/Day $9.44 20 100 000 👁‍🗨 It doesn't have a negative impact on your account; on the contrary, it has a positive impact. Your chance of being discovered increases. ✔",
+                  "| R30 ♻️ | 10K/Day $9.44 20 150 000 👁‍🗨 It doesn't have a negative impact on your account; on the contrary, it has a positive impact. Your chance of being discovered increases. ✔"
+                ]
+              },
+              "dislike": {
+                "count": 639,
+                "inServiceRows": 219,
+                "quotes": [
+                  "Your Video might get engagements by the viewers: - Likes / Dislikes / Comments / Subscribers, etc. We have NO control over the Viewer's actions. 9739 Buy YouTube Views - [ Real &",
+                  "Your Video might get engagements by the viewers: - Likes / Dislikes / Comments / Subscribers, etc. We have NO control over the Viewer's actions. 9807 Buy YouTube Unique Views [RAV",
+                  "Your Video might get engagements by the viewers: - Likes / Dislikes / Comments / Subscribers, etc. We have NO control over the Viewer's actions. 9808 Buy YouTube Unique Views [RAV",
+                  "Your Video might get engagements by the viewers: - Likes / Dislikes / Comments / Subscribers, etc. We have NO control over the Viewer's actions. 9809 Buy YouTube Unique Views [RAV",
+                  "Your Video might get engagements by the viewers: - Likes / Dislikes / Comments / Subscribers, etc. We have NO control over the Viewer's actions. 9810 Buy YouTube Unique Views [RAV"
+                ]
+              },
+              "downvote": {
+                "count": 3,
+                "inServiceRows": 3,
+                "quotes": [
+                  "000 000 Reddit [Cheap Services] SMM Panel 18564 Buy Reddit Downvotes - up to 24 hours old posts $20.70 3 100 ⏱Start: 10 ~ 30 seconds ⚡️Speed: Custom, 10 ~ 900 Upvotes / Hour ✔High",
+                  "rom aged Accounts with High Karma. 18567 Buy Reddit Comment Downvotes - up to 24 hours old comments $13.80 5 1 000 ⏱Start: 10 ~ 30 seconds ⚡️Speed: Custom, 10 ~ 900 Upvotes / Hour",
+                  "e do not forget these are just estimations 20027 Buy Reddit Downvotes [Real] [200-400/D] [0-1/H] $13.20 5 10 000 Drop: unknown, not much expected Guarantee: no Support available Ho"
+                ]
+              },
+              "review": {
+                "count": 87,
+                "inServiceRows": 48,
+                "quotes": [
+                  "ll ] 12-24 HRS $2.40 1 000 50 000 ♛ Facebook Real Comments, Reviews [ Manual ] SMM Panel 12042 Buy Facebook Page Review - [ Yes Recommendation ] [ Max-500 ] [ 30 Days Refill ] 12-2",
+                  "ments, Reviews [ Manual ] SMM Panel 12042 Buy Facebook Page Review - [ Yes Recommendation ] [ Max-500 ] [ 30 Days Refill ] 12-24 HRS $12.00 10 100 11 hours 11 minutes 🔻 Start Time",
+                  "Speed: 100+/D 🔻 HQ Global Profile 12043 Buy Facebook Page Review - [ With Custom Comment ] [ Max-500 ] [ 30 Days Refill ] 12-24 HRS $12.00 10 100 12 hours 4 minutes 🔻 Start Time",
+                  "1/H] $0.80 1 000 100 000 000 ♛ Facebook Group Members, Page Reviews, Event SMM Panel 7203 Buy Facebook Group Members - [ 1-3K/day ] [ 30 Days Refill ] 0-12HRS $1.54 100 100 000 7 h",
+                  "0 days Any kind of support available 8241 Buy Facebook Page Review - [ Yes Recommend + 25 Random English world/ Rec ❤️ ] [ 100/day ] INSTANT-6HRS $12.00 5 300 8 hours 14 minutes 60"
+                ]
+              }
+            }
+          }
+        },
+        "refill-terms": {
+          "proposed": "pass",
+          "reason": "refill appears with a window 5002 time(s) and with a trigger 3869 time(s); confirm both are visible before payment",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/smmwiz.com/services.html.gz",
+                "sha256": "b5e0fd238e6a8d76dc03acf6447dba3ba5819b6ebf2c791ef42d7dd80b53cc44",
+                "url": "https://smmwiz.com/services",
+                "foundVia": "link on the homepage"
+              },
+              {
+                "file": "snapshots/2026-09-30/smmwiz.com/homepage.html",
+                "sha256": "9432ba3fe33157d89ebd77282f0f3443204fe4f4deb06bc0fc04728e05da33af",
+                "url": "https://smmwiz.com/"
+              }
+            ],
+            "refillMentions": 5946,
+            "windowNear": 5002,
+            "triggerNear": 3869,
+            "quotes": [
+              "arket] SMM Panel Facebook USA Insights All Countries [Provider] SMM Panel Twitter Tweet Views [Instant Delivery - High Speed] SMM Panel Youtube Subscribers [No Refill Fast Subs] SMM Panel Twitter Tweet Views [Latest - Super Fast Service] SMM Panel Instagram Brazil Followers [Provider - Very Low Drop] SMM Panel 小红书 - Xiaohongshu - RedNote - [100% Chinese] SMM Panel Shopee Services SMM Panel Shopee Live Stream Views SMM Panel Shopee Live Stream Views【Indonesia 🇮🇩 】 SMM Panel",
+              "tagram Power Real Likes [Nice Quality][500KDAY] $0.08 100 500 000 12 minutes 21353 Buy ❤️ Instagram Likes - Lowest Price | Fast Delivery | Up to 300K/day ⚠️ No Refill $0.04 10 10 000 000 97 hours 48 minutes ⚡ Drop Rate: 0–10% ⚠️ High Quality ⚡ Instant Start 🚀 Speed: 100K+/day 🔁 Auto Cancel ⚡ Drop Rate: 0–10% ⚠️ High Quality ⚡ Instant Start 🚀 Speed: 100K+/day 🔁 Auto Cancel 21389 Buy Instagram Likes [High Quality] [Cancel Enabled] [No Refill] [300K+/D] [Instant] $0.04 10 10",
+              "Auto Cancel ⚡ Drop Rate: 0–10% ⚠️ High Quality ⚡ Instant Start 🚀 Speed: 100K+/day 🔁 Auto Cancel 21389 Buy Instagram Likes [High Quality] [Cancel Enabled] [No Refill] [300K+/D] [Instant] $0.04 10 10 000 000 7 hours 46 minutes 21390 Buy Youtube Costum Comments [World Wide] [R30] [1-5K/D] [0-1/H] $1.98 5 10 000 28 minutes 21391 Buy Youtube Community Post Likes [World Wide] [R30] [1-5K/D] [0-1/H] $0.70 10 100 000 19 minutes 21392 Buy Youtube Subscribers [No Refill] [1-5K/D] [0-",
+              "98 5 10 000 28 minutes 21391 Buy Youtube Community Post Likes [World Wide] [R30] [1-5K/D] [0-1/H] $0.70 10 100 000 19 minutes 21392 Buy Youtube Subscribers [No Refill] [1-5K/D] [0-1/H] $0.48 10 100 000 1 hour 55 minutes 21900 Buy Youtube Subscribers [No Refill] [1-5K/D] [0-1/H] $0.02 1 100 000 41 minutes 21901 Buy Youtube Subscribers [No Drop] [R30] [1-5K/D] [0-1/H] $31.20 50 100 000 100 hours 2 minutes 21930 Buy Instagram USA Likes $1.44 20 20 000 19 minutes 21931 Buy YouTub",
+              "/H] $0.70 10 100 000 19 minutes 21392 Buy Youtube Subscribers [No Refill] [1-5K/D] [0-1/H] $0.48 10 100 000 1 hour 55 minutes 21900 Buy Youtube Subscribers [No Refill] [1-5K/D] [0-1/H] $0.02 1 100 000 41 minutes 21901 Buy Youtube Subscribers [No Drop] [R30] [1-5K/D] [0-1/H] $31.20 50 100 000 100 hours 2 minutes 21930 Buy Instagram USA Likes $1.44 20 20 000 19 minutes 21931 Buy YouTube subscribers - Priority - High Speed - R30 - Fast Start $43.20 20 100 000 5 hours 2 minutes 2"
+            ]
+          }
+        },
+        "contact-without-account": {
+          "proposed": "fail",
+          "reason": "no email address and no contact, support or ticket link in homepage.html",
+          "needsReview": true,
+          "evidence": {
+            "sources": [
+              {
+                "file": "snapshots/2026-09-30/smmwiz.com/homepage.html",
+                "sha256": "9432ba3fe33157d89ebd77282f0f3443204fe4f4deb06bc0fc04728e05da33af",
+                "url": "https://smmwiz.com/"
+              }
+            ],
+            "emails": [],
+            "contactLinks": [],
+            "responseTime": [],
+            "alwaysOn": 3
+          }
+        },
+        "domain-age": {
+          "proposed": "pass",
+          "reason": "registered 2018-10-19, 7 years before 2026-09-30",
+          "needsReview": true,
+          "evidence": {
+            "registered": "2018-10-19T13:53:08Z",
+            "source": "measurements/2026-09-30/rdap/smmwiz.com.json",
+            "query": "https://rdap.org/domain/smmwiz.com",
+            "readOn": "2026-09-30"
+          }
+        }
+      },
+      "columns": {
+        "superlatives": {
+          "count": 33,
+          "source": {
+            "file": "snapshots/2026-09-30/smmwiz.com/homepage.html",
+            "sha256": "9432ba3fe33157d89ebd77282f0f3443204fe4f4deb06bc0fc04728e05da33af",
+            "url": "https://smmwiz.com/"
+          },
+          "byWord": {
+            "best": {
+              "count": 17,
+              "hits": [
+                "Smmwiz – Trusted SMM Panel | Cheapest &  [Best]  Main Provider for 8+ Years Toggle navigation SmmWiz English",
+                "Panel Arabic Countries Indiansmmpanel Buy Smm services Smm panel  [Best]  smm panel Cheapest SMM Panel instagram smm panel youtube",
+                "Services Smmwiz – Trusted SMM Panel | Cheapest &  [Best]  Main Provider for 8+ Years WhatsApp Updates Private services",
+                "me Sign in Sign up Smmwiz – Cheapest &  [Best]  SMM Panel for Social Media SMMwiz is the #1",
+                "for Social Media SMMwiz is the #1 Cheapest and  [Best]  SMM Panel trusted worldwide for Instagram, YouTube, TikTok, Facebook",
+                "fast, stable and reliable performance 24/7 , ensuring the  [best]  results for creators, agencies and resellers worldwide. Instagram SMM",
+                "market, offering non-drop services with refill guarantee at the  [best]  and most affordable rates. Telegram SMM Panel Grow your",
+                "“UPI deposits + stable Indian followers make Smmwiz the  [best]  panel for resellers. We use it daily for Instagram",
+                "of users who rate Smmwiz as one of the  [best]  & most trusted SMM panels in 2026. 1. What",
+                "a main provider SMM panel and one of the  [best]  & cheapest SMM panels offering real and stable Instagram,",
+                "agencies and resellers worldwide. 2. Why is Smmwiz the  [best]  SMM panel in India? Smmwiz is trusted as the",
+                "SMM panel in India? Smmwiz is trusted as the  [best]  SMM panel in India because it supports quick and",
+                "consistent social media growth. 3. Why is Smmwiz the  [best]  SMM panel in the USA? Smmwiz is considered one",
+                "in the USA? Smmwiz is considered one of the  [best]  SMM panels in the USA because it delivers high-quality",
+                "in 2026 because it offers fastest delivery speed ,  [best]  pricing , high-retention quality and a strong refill guarantee",
+                "List Find the lowest-priced, trusted and refill-protected SMM panels.  [Best]  SMM Panel of 2026 – Top 15 Compared Detailed",
+                "the world’s leading SMM panels. Indian SMM Panel –  [Best]  Options for 2026 UPI, Paytm, PhonePe, NetBanking SMM panel"
+              ]
+            },
+            "cheapest": {
+              "count": 10,
+              "hits": [
+                "Smmwiz – Trusted SMM Panel |  [Cheapest]  & Best Main Provider for 8+ Years Toggle navigation",
+                "Indiansmmpanel Buy Smm services Smm panel Best smm panel  [Cheapest]  SMM Panel instagram smm panel youtube smm panel facebook",
+                "panel SEO Services Smmwiz – Trusted SMM Panel |  [Cheapest]  & Best Main Provider for 8+ Years WhatsApp Updates",
+                "password? Remember me Sign in Sign up Smmwiz –  [Cheapest]  & Best SMM Panel for Social Media SMMwiz is",
+                "SMM Panel for Social Media SMMwiz is the #1  [Cheapest]  and Best SMM Panel trusted worldwide for Instagram, YouTube,",
+                "Telegram & More Smmwiz is one of the top,  [cheapest]  and most trusted SMM panels , offering 10,000+ high-quality",
+                "provider SMM panel and one of the best &  [cheapest]  SMM panels offering real and stable Instagram, YouTube, TikTok,",
+                "instantly without any delay. It offers some of the  [cheapest]  SMM services in India with real-looking Instagram followers, YouTube",
+                "performance. It is also known as one of the  [cheapest]  SMM panels for USA users thanks to its main-provider",
+                "SMM panels work and why they are used worldwide.  [Cheapest]  SMM Panel India & USA – Updated List Find"
+              ]
+            },
+            "#1": {
+              "count": 2,
+              "hits": [
+                "Best SMM Panel for Social Media SMMwiz is the  [#1]  Cheapest and Best SMM Panel trusted worldwide for Instagram,",
+                "and manage bulk orders smoothly. This makes Smmwiz the  [#1]  choice for resellers in 2026 . 📚 Our Latest"
+              ]
+            },
+            "fastest": {
+              "count": 1,
+              "hits": [
+                "in 2026? Smmwiz leads in 2026 because it offers  [fastest]  delivery speed , best pricing , high-retention quality and"
+              ]
+            },
+            "most trusted": {
+              "count": 3,
+              "hits": [
+                "More Smmwiz is one of the top, cheapest and  [most trusted]  SMM panels , offering 10,000+ high-quality social media services",
+                "who rate Smmwiz as one of the best &  [most trusted]  SMM panels in 2026. 1. What is Smmwiz? Smmwiz",
+                "other major platforms — making it one of the  [most trusted]  and high-volume SMM providers. 5. Why is Smmwiz the"
+              ]
+            }
+          },
+          "reason": "every hit with ten words either side; strike the ones not applied to the panel itself"
+        },
+        "domainAgeYears": 7
+      },
+      "snapshots": [
+        "snapshots/2026-09-30/smmwiz.com/homepage.html",
+        "snapshots/2026-09-30/smmwiz.com/services.html.gz",
+        "snapshots/2026-09-30/smmwiz.com/api.html"
+      ]
+    }
+  ],
+  "summary": {
+    "catalogue-visible": {
+      "pass": 5,
+      "fail": 5,
+      "unverified": 0
+    },
+    "third-party-services": {
+      "pass": 5,
+      "fail": 5,
+      "unverified": 0
+    },
+    "refill-terms": {
+      "pass": 6,
+      "fail": 4,
+      "unverified": 0
+    },
+    "contact-without-account": {
+      "pass": 1,
+      "fail": 9,
+      "unverified": 0
+    },
+    "domain-age": {
+      "pass": 8,
+      "fail": 1,
+      "unverified": 1
+    }
+  },
+  "notes": []
+}
